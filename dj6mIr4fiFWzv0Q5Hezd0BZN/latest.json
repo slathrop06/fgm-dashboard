@@ -1,0 +1,365 @@
+{
+ "updated": "2026-09-13T00:54",
+ "week": 1,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 105.6,
+ "current_lineup": 105.6,
+ "bench_gain": 0.0,
+ "win_probability": 0.31,
+ "opponent": "Matt's Magnificent Team",
+ "matchup": "106 to 121",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "nfl": "WSH",
+   "ep": 14.5,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 15.2,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "nfl": "NO",
+   "ep": 11.5,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 15.9,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 13.6,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Juwan Johnson",
+   "pos": "TE",
+   "nfl": "NO",
+   "ep": 7.4,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Eagles D/ST",
+   "pos": "DST",
+   "nfl": "PHI",
+   "ep": 8.7,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Tyler Loop",
+   "pos": "K",
+   "nfl": "BAL",
+   "ep": 8.3,
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "nfl": "PIT",
+   "ep": 10.5,
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "Patrick Mahomes",
+   "pos": "QB",
+   "ep": 14.3,
+   "ros": 19.3,
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "ep": 9.4,
+   "ros": 7.7,
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Keaton Mitchell",
+   "pos": "RB",
+   "ep": 6.5,
+   "ros": 5.4,
+   "status": "ACTIVE"
+  },
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "ep": 6.3,
+   "ros": 7.0,
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Justice Hill",
+   "pos": "RB",
+   "ep": 5.0,
+   "ros": 5.6,
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "ep": 0.0,
+   "ros": 3.9,
+   "status": "OUT"
+  }
+ ],
+ "waiver_priority": "#5 of 10",
+ "targets": [
+  {
+   "add": "Jaguars D/ST",
+   "pos": "DST",
+   "nfl": "JAX",
+   "drop": "Eagles D/ST",
+   "score": 1.9,
+   "wk": 1.9,
+   "ros": -0.9,
+   "adds_24h": 0,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+1.9 to this week's lineup"
+  },
+  {
+   "add": "Tre Tucker",
+   "pos": "WR",
+   "nfl": "LV",
+   "drop": "Keaton Mitchell",
+   "score": 0.9,
+   "wk": 0.0,
+   "ros": -0.7,
+   "adds_24h": 34200,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "34,200 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Darren Waller",
+   "pos": "TE",
+   "nfl": "CAR",
+   "drop": "Keaton Mitchell",
+   "score": 0.9,
+   "wk": 0.0,
+   "ros": -0.7,
+   "adds_24h": 21303,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "21,303 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Michael Mayer",
+   "pos": "TE",
+   "nfl": "LV",
+   "drop": "Keaton Mitchell",
+   "score": 0.6,
+   "wk": 0.0,
+   "ros": -1.3,
+   "adds_24h": 289287,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "289,287 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Devaughn Vele",
+   "pos": "WR",
+   "nfl": "NO",
+   "drop": "Keaton Mitchell",
+   "score": 0.2,
+   "wk": 0.0,
+   "ros": -1.3,
+   "adds_24h": 24269,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "24,269 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kaelon Black",
+   "pos": "RB",
+   "nfl": "SF",
+   "drop": "Keaton Mitchell",
+   "score": 1.7,
+   "wk": 0.0,
+   "ros": -0.0,
+   "adds_24h": 75593,
+   "pool": "WAIVERS",
+   "advice": "Contested (75,593 adds/24h, 15% rostered) but he'd sit on your bench this week \u2014 a rest-of-season upgrade only. Not worth #5 \u2192 #10 automatically (slot \u2248 2.1 ppg); tap Claim if you want him.",
+   "reason": "75,593 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Malachi Fields",
+   "pos": "WR",
+   "nfl": "NYG",
+   "drop": "Keaton Mitchell",
+   "score": -0.7,
+   "wk": 0.0,
+   "ros": -2.2,
+   "adds_24h": 28920,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "28,920 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Chris Bell",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "Keaton Mitchell",
+   "score": -0.9,
+   "wk": 0.0,
+   "ros": -2.5,
+   "adds_24h": 50918,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "50,918 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "King Trump",
+   "give": [
+    "Jayden Daniels (QB, WSH)"
+   ],
+   "get": [
+    "Matthew Stafford (QB, LAR)"
+   ],
+   "my_gain": 1.8,
+   "their_gain": 0.0,
+   "pitch": "Offer Jayden Daniels for Matthew Stafford \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Rusty G Bucketz",
+   "give": [
+    "RJ Harvey (RB, DEN)"
+   ],
+   "get": [
+    "Travis Kelce (TE, KC)"
+   ],
+   "my_gain": 1.2,
+   "their_gain": 0.0,
+   "pitch": "Offer RJ Harvey for Travis Kelce \u2014 roughly even for them; sell it on fit."
+  }
+ ],
+ "pending_claims": [],
+ "recent_decisions": [
+  {
+   "at": "Thu 09/10 18:45",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+1.4: DK Metcalf BE\u2192FLEX; Jalen Coker FLEX\u2192BE",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/09 16:18",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+3.5: Brock Bowers TE\u2192BE; Juwan Johnson BE\u2192TE",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/09 16:11",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Juwan Johnson / drop Wan'Dale Robinson",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/09 00:37",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Keaton Mitchell / drop Deebo Samuel Sr.",
+   "result": "ok"
+  },
+  {
+   "at": "Mon 09/07 07:40",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Tyler Loop / drop Eddy Pineiro",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 09/06 07:39",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.5: DK Metcalf FLEX\u2192BE; Jalen Coker BE\u2192FLEX",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 09/06 07:37",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Jalen Coker / drop Stefon Diggs",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 09/06 07:36",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Justice Hill / drop Travis Hunter",
+   "result": "ok"
+  },
+  {
+   "at": "Sat 09/05 16:46",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "CeeDee Lamb FLEX\u2192WR; DK Metcalf BE\u2192FLEX; Stefon Diggs WR\u2192BE",
+   "result": "one-click"
+  },
+  {
+   "at": "Sat 09/05 14:10",
+   "kind": "cancel",
+   "executed": true,
+   "summary": "claim withdrawn: Juwan Johnson for Travis Hunter",
+   "result": "ok"
+  },
+  {
+   "at": "Sat 09/05 14:10",
+   "kind": "cancel",
+   "executed": true,
+   "summary": "cancelled auto-claim Juwan Johnson for Travis Hunter (rule not yet calibrated)",
+   "result": "ok"
+  },
+  {
+   "at": "Sat 09/05 14:08",
+   "kind": "cancel",
+   "executed": true,
+   "summary": "claim withdrawn: Jalen Coker for Travis Hunter",
+   "result": "ok"
+  }
+ ],
+ "espn_auth_ok": true
+}

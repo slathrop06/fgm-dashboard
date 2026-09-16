@@ -1,0 +1,382 @@
+{
+ "updated": "2026-09-15T22:22",
+ "week": 2,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 116.0,
+ "current_lineup": 116.0,
+ "bench_gain": 0.0,
+ "win_probability": 0.45,
+ "opponent": "3 Rings Lathrop",
+ "matchup": "116 to 120",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "nfl": "WSH",
+   "ep": 24.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 22.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "nfl": "NO",
+   "ep": 8.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 17.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 10.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Juwan Johnson",
+   "pos": "TE",
+   "nfl": "NO",
+   "ep": 6.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Eagles D/ST",
+   "pos": "DST",
+   "nfl": "PHI",
+   "ep": 10.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Tyler Loop",
+   "pos": "K",
+   "nfl": "BAL",
+   "ep": 8.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "nfl": "PIT",
+   "ep": 7.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "ep": 7.4,
+   "ros": 7.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "ep": 7.0,
+   "ros": 7.8,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Keaton Mitchell",
+   "pos": "RB",
+   "ep": 6.2,
+   "ros": 5.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Justice Hill",
+   "pos": "RB",
+   "ep": 5.8,
+   "ros": 5.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "ep": 0.0,
+   "ros": 10.4,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 8.1,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "ep": 0.0,
+   "ros": 18.9,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  }
+ ],
+ "waiver_priority": "#5 of 10",
+ "targets": [
+  {
+   "add": "Dalton Kincaid",
+   "pos": "TE",
+   "nfl": "BUF",
+   "drop": "Keaton Mitchell",
+   "score": 11.1,
+   "wk": 4.6,
+   "ros": 2.5,
+   "adds_24h": 97188,
+   "pool": "WAIVERS",
+   "advice": "Worth your #5: he starts for you this week.",
+   "reason": "+4.6 to this week's lineup; +2.5 ppg rest of season over Keaton Mitchell; 97,188 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "nfl": "SF",
+   "drop": "Keaton Mitchell",
+   "score": 5.5,
+   "wk": 2.2,
+   "ros": 2.2,
+   "adds_24h": 0,
+   "pool": "WAIVERS",
+   "advice": "Starts for you this week (+2.2) and he's contested (0 adds/24h, 68% rostered) \u2014 worth #5 \u2192 #10.",
+   "reason": "+2.2 to this week's lineup; +2.2 ppg rest of season over Keaton Mitchell"
+  },
+  {
+   "add": "Chris Brooks",
+   "pos": "RB",
+   "nfl": "GB",
+   "drop": "Keaton Mitchell",
+   "score": 3.2,
+   "wk": 1.2,
+   "ros": -0.1,
+   "adds_24h": 27399,
+   "pool": "WAIVERS",
+   "advice": "Starts for you this week (+1.2) and he's contested (27,399 adds/24h, 11% rostered) \u2014 worth #5 \u2192 #10.",
+   "reason": "+1.2 to this week's lineup; 27,399 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kaelon Black",
+   "pos": "RB",
+   "nfl": "SF",
+   "drop": "Keaton Mitchell",
+   "score": 4.8,
+   "wk": 0.7,
+   "ros": 1.7,
+   "adds_24h": 1227569,
+   "pool": "WAIVERS",
+   "advice": "Contested (1,227,569 adds/24h, 16% rostered) but he'd sit on your bench this week \u2014 a rest-of-season upgrade only. Not worth #5 \u2192 #10 automatically (slot \u2248 2.1 ppg); tap Claim if you want him.",
+   "reason": "+1.7 ppg rest of season over Keaton Mitchell; 1,227,569 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Dalton Schultz",
+   "pos": "TE",
+   "nfl": "HOU",
+   "drop": "Keaton Mitchell",
+   "score": 4.4,
+   "wk": 2.3,
+   "ros": 0.9,
+   "adds_24h": 0,
+   "pool": "WAIVERS",
+   "advice": "Would start for you (+2.3) but nobody else is chasing him (0 adds/24h) \u2014 he clears to free agency at the same run; the agent adds him free then. Claim only if you want the insurance.",
+   "reason": "+2.3 to this week's lineup; +1.0 ppg rest of season over Keaton Mitchell"
+  },
+  {
+   "add": "Eddy Pineiro",
+   "pos": "K",
+   "nfl": "SF",
+   "drop": "Tyler Loop",
+   "score": 3.4,
+   "wk": 0.8,
+   "ros": 0.6,
+   "adds_24h": 42099,
+   "pool": "WAIVERS",
+   "advice": "Contested (42,099 adds/24h, 85% rostered) but he'd sit on your bench this week \u2014 a rest-of-season upgrade only. Not worth #5 \u2192 #10 automatically (slot \u2248 2.1 ppg); tap Claim if you want him.",
+   "reason": "42,099 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Romeo Doubs",
+   "pos": "WR",
+   "nfl": "NE",
+   "drop": "Keaton Mitchell",
+   "score": 2.6,
+   "wk": 0.0,
+   "ros": 0.9,
+   "adds_24h": 74328,
+   "pool": "WAIVERS",
+   "advice": "Contested (74,328 adds/24h, 61% rostered) but he'd sit on your bench this week \u2014 a rest-of-season upgrade only. Not worth #5 \u2192 #10 automatically (slot \u2248 2.1 ppg); tap Claim if you want him.",
+   "reason": "+1.0 ppg rest of season over Keaton Mitchell; 74,328 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Braelon Allen",
+   "pos": "RB",
+   "nfl": "NYJ",
+   "drop": "Keaton Mitchell",
+   "score": 2.5,
+   "wk": 0.0,
+   "ros": 0.9,
+   "adds_24h": 29564,
+   "pool": "WAIVERS",
+   "advice": "Contested (29,564 adds/24h, 12% rostered) but he'd sit on your bench this week \u2014 a rest-of-season upgrade only. Not worth #5 \u2192 #10 automatically (slot \u2248 2.1 ppg); tap Claim if you want him.",
+   "reason": "+1.0 ppg rest of season over Keaton Mitchell; 29,564 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [],
+ "pending_claims": [
+  "Dalton Kincaid for Keaton Mitchell"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Tue 09/15 22:16",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 22:06",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 21:56",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 21:46",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 21:35",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 21:25",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 21:15",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 21:05",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 20:55",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 20:45",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 20:35",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Tue 09/15 20:25",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dalton Kincaid / drop Keaton Mitchell",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  }
+ ],
+ "espn_auth_ok": true
+}

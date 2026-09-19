@@ -1,0 +1,447 @@
+{
+ "updated": "2026-09-19T12:29",
+ "week": 2,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 121.9,
+ "current_lineup": 121.9,
+ "bench_gain": 0.0,
+ "win_probability": 0.51,
+ "opponent": "3 Rings Lathrop",
+ "matchup": "122 to 121",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "nfl": "WSH",
+   "ep": 24.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 23.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "nfl": "NO",
+   "ep": 9.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 16.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 10.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "nfl": "BUF",
+   "ep": 9.7,
+   "actual": 18.5,
+   "game": "final",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Eagles D/ST",
+   "pos": "DST",
+   "nfl": "PHI",
+   "ep": 10.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Tyler Bass",
+   "pos": "K",
+   "nfl": "BUF",
+   "ep": 7.6,
+   "actual": 5.0,
+   "game": "final",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "nfl": "CAR",
+   "ep": 10.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "ep": 8.9,
+   "ros": 9.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "ep": 8.5,
+   "ros": 7.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "ep": 8.0,
+   "ros": 8.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Justice Hill",
+   "pos": "RB",
+   "ep": 6.2,
+   "ros": 6.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Braelon Allen",
+   "pos": "RB",
+   "ep": 5.5,
+   "ros": 6.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "ep": 5.1,
+   "ros": 7.3,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "ep": 0.0,
+   "ros": 7.5,
+   "actual": null,
+   "game": "pending",
+   "status": "DOUBTFUL"
+  }
+ ],
+ "scored": 23.5,
+ "still_to_play": 7,
+ "waiver_priority": "#8 of 10",
+ "targets": [
+  {
+   "add": "Tyler Loop",
+   "pos": "K",
+   "nfl": "BAL",
+   "drop": "Tyler Bass",
+   "score": 4.0,
+   "wk": 1.1,
+   "ros": 0.7,
+   "adds_24h": 24780,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+1.1 to this week's lineup; 24,780 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kenyon Sadiq",
+   "pos": "TE",
+   "nfl": "NYJ",
+   "drop": "Justice Hill",
+   "score": 0.8,
+   "wk": 0.0,
+   "ros": -0.8,
+   "adds_24h": 34992,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "34,992 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Rashod Bateman",
+   "pos": "WR",
+   "nfl": "BAL",
+   "drop": "Justice Hill",
+   "score": 0.7,
+   "wk": 0.0,
+   "ros": -0.9,
+   "adds_24h": 24422,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "24,422 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kayshon Boutte",
+   "pos": "WR",
+   "nfl": "HOU",
+   "drop": "Justice Hill",
+   "score": 0.0,
+   "wk": 0.0,
+   "ros": -1.5,
+   "adds_24h": 24028,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "24,028 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Caleb Douglas",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "Justice Hill",
+   "score": -0.2,
+   "wk": 0.0,
+   "ros": -1.9,
+   "adds_24h": 70936,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "70,936 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Eddy Pineiro",
+   "pos": "K",
+   "nfl": "SF",
+   "drop": "Tyler Bass",
+   "score": -0.4,
+   "wk": -1.1,
+   "ros": 1.3,
+   "adds_24h": 0,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+1.3 ppg rest of season over Tyler Bass; note: questionable"
+  },
+  {
+   "add": "DeeJay Dallas",
+   "pos": "RB",
+   "nfl": "MIN",
+   "drop": "Justice Hill",
+   "score": -0.6,
+   "wk": 0.0,
+   "ros": -2.1,
+   "adds_24h": 26226,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "26,226 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Devin Singletary",
+   "pos": "RB",
+   "nfl": "NYG",
+   "drop": "Justice Hill",
+   "score": -0.7,
+   "wk": 0.0,
+   "ros": -2.5,
+   "adds_24h": 130410,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "130,410 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Mister O",
+   "give": [
+    "DK Metcalf (WR, PIT)",
+    "TreVeyon Henderson (RB, NE)"
+   ],
+   "get": [
+    "DJ Moore (WR, BUF) [QUESTIONABLE]"
+   ],
+   "my_gain": 1.2,
+   "their_gain": 0.0,
+   "pitch": "Offer DK Metcalf + TreVeyon Henderson for DJ Moore \u2014 they add ~1.6 ppg of real bench value."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "TreVeyon Henderson (RB, NE)"
+   ],
+   "get": [
+    "Jaylen Waddle (WR, DEN)"
+   ],
+   "my_gain": 0.9,
+   "their_gain": 0.0,
+   "pitch": "Offer TreVeyon Henderson for Jaylen Waddle \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Matt's Magnificent Team",
+   "give": [
+    "DK Metcalf (WR, PIT)",
+    "TreVeyon Henderson (RB, NE)"
+   ],
+   "get": [
+    "Mike Evans (WR, SF)"
+   ],
+   "my_gain": 1.0,
+   "their_gain": 0.0,
+   "pitch": "Offer DK Metcalf + TreVeyon Henderson for Mike Evans \u2014 they add ~1.8 ppg of real bench value."
+  },
+  {
+   "partner": "3 Rings Lathrop",
+   "give": [
+    "TreVeyon Henderson (RB, NE)"
+   ],
+   "get": [
+    "Christian Watson (WR, GB)"
+   ],
+   "my_gain": 0.7,
+   "their_gain": 0.0,
+   "pitch": "Offer TreVeyon Henderson for Christian Watson \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Rusty G Bucketz",
+   "give": [
+    "RJ Harvey (RB, DEN) [QUESTIONABLE]"
+   ],
+   "get": [
+    "Travis Kelce (TE, KC)"
+   ],
+   "my_gain": 0.6,
+   "their_gain": -0.2,
+   "pitch": "Offer RJ Harvey for Travis Kelce \u2014 roughly even for them; sell it on fit."
+  }
+ ],
+ "pending_claims": [
+  "Dalton Kincaid for Keaton Mitchell"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Sat 09/19 03:34",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (cleared waivers) Justice Hill / drop Chris Brooks",
+   "result": "ok"
+  },
+  {
+   "at": "Sat 09/19 03:34",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 03:04",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 02:34",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 02:03",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 01:33",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 01:03",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 00:33",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Sat 09/19 00:03",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 09/18 23:53",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 09/18 23:43",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 09/18 23:33",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Loop / drop Tyler Bass",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Tyler Bass is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"shortMessage\":\"Roster transaction could not be completed, Tyler Bass is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  }
+ ],
+ "espn_auth_ok": true
+}

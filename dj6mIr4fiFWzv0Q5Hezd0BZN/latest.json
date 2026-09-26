@@ -1,0 +1,462 @@
+{
+ "updated": "2026-09-26T16:45",
+ "week": 3,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 117.5,
+ "current_lineup": 116.7,
+ "bench_gain": 0.8,
+ "win_probability": 0.46,
+ "opponent": "Rose Knows",
+ "matchup": "117 to 120",
+ "moves": [
+  "Travis Etienne Jr. BE\u2192RB",
+  "TreVeyon Henderson RB\u2192BE"
+ ],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "nfl": "NO",
+   "ep": 19.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 22.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "nfl": "NO",
+   "ep": 9.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 16.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 11.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "nfl": "BUF",
+   "ep": 10.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Eagles D/ST",
+   "pos": "DST",
+   "nfl": "PHI",
+   "ep": 9.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Tyler Loop",
+   "pos": "K",
+   "nfl": "BAL",
+   "ep": 9.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Rashod Bateman",
+   "pos": "WR",
+   "nfl": "BAL",
+   "ep": 9.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "ep": 8.9,
+   "ros": 8.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "ep": 8.3,
+   "ros": 7.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "ep": 8.2,
+   "ros": 10.7,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "ep": 7.8,
+   "ros": 8.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Denzel Boston",
+   "pos": "WR",
+   "ep": 7.6,
+   "ros": 7.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "ep": 6.5,
+   "ros": 9.6,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "ep": 6.3,
+   "ros": 8.2,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  }
+ ],
+ "waiver_priority": "#10 of 10",
+ "targets": [
+  {
+   "add": "Terrance Ferguson",
+   "pos": "TE",
+   "nfl": "LAR",
+   "drop": "Romeo Doubs",
+   "score": 1.5,
+   "wk": 0.0,
+   "ros": -0.4,
+   "adds_24h": 342448,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "342,448 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Malik Washington",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "Romeo Doubs",
+   "score": 1.4,
+   "wk": 0.0,
+   "ros": -0.4,
+   "adds_24h": 111992,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "111,992 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Tre Tucker",
+   "pos": "WR",
+   "nfl": "LV",
+   "drop": "Romeo Doubs",
+   "score": 1.3,
+   "wk": 0.0,
+   "ros": -0.3,
+   "adds_24h": 34008,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "34,008 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Xavier Hutchinson",
+   "pos": "WR",
+   "nfl": "HOU",
+   "drop": "Romeo Doubs",
+   "score": 0.6,
+   "wk": 0.0,
+   "ros": -1.2,
+   "adds_24h": 92183,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "92,183 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Justice Hill",
+   "pos": "RB",
+   "nfl": "BAL",
+   "drop": "Romeo Doubs",
+   "score": 0.3,
+   "wk": 0.0,
+   "ros": -1.3,
+   "adds_24h": 36747,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "36,747 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Emmett Johnson",
+   "pos": "RB",
+   "nfl": "KC",
+   "drop": "Romeo Doubs",
+   "score": 0.0,
+   "wk": 0.0,
+   "ros": -1.7,
+   "adds_24h": 88470,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "88,470 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Oronde Gadsden",
+   "pos": "TE",
+   "nfl": "LAC",
+   "drop": "Romeo Doubs",
+   "score": -0.1,
+   "wk": 0.0,
+   "ros": -1.7,
+   "adds_24h": 37780,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "37,780 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Keon Coleman",
+   "pos": "WR",
+   "nfl": "BUF",
+   "drop": "Romeo Doubs",
+   "score": -0.5,
+   "wk": 0.0,
+   "ros": -2.1,
+   "adds_24h": 48096,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "48,096 adds on Sleeper in 24h \u2014 market is moving; note: questionable"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Dalton Kincaid (TE, BUF)"
+   ],
+   "get": [
+    "Brock Purdy (QB, SF)"
+   ],
+   "my_gain": 2.9,
+   "their_gain": -0.1,
+   "pitch": "Offer Dalton Kincaid for Brock Purdy \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Dalton Kincaid (TE, BUF)"
+   ],
+   "get": [
+    "Patrick Mahomes (QB, KC)"
+   ],
+   "my_gain": 2.4,
+   "their_gain": 0.3,
+   "pitch": "Offer Dalton Kincaid for Patrick Mahomes \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "3 Rings Lathrop",
+   "give": [
+    "Dalton Kincaid (TE, BUF)",
+    "TreVeyon Henderson (RB, NE)"
+   ],
+   "get": [
+    "Jaylen Warren (RB, PIT) [QUESTIONABLE]"
+   ],
+   "my_gain": 1.9,
+   "their_gain": 1.4,
+   "pitch": "Offer Dalton Kincaid + TreVeyon Henderson for Jaylen Warren \u2014 upgrades their starting lineup by ~1.5 ppg."
+  },
+  {
+   "partner": "3 Rings Lathrop",
+   "give": [
+    "Travis Etienne Jr. (RB, NO)",
+    "Dalton Kincaid (TE, BUF)"
+   ],
+   "get": [
+    "Kyren Williams (RB, LAR)"
+   ],
+   "my_gain": 1.9,
+   "their_gain": 1.5,
+   "pitch": "Offer Travis Etienne Jr. + Dalton Kincaid for Kyren Williams \u2014 upgrades their starting lineup by ~1.5 ppg."
+  },
+  {
+   "partner": "3 Rings Lathrop",
+   "give": [
+    "Tee Higgins (WR, CIN)",
+    "Dalton Kincaid (TE, BUF)"
+   ],
+   "get": [
+    "Parker Washington (WR, JAX)"
+   ],
+   "my_gain": 1.4,
+   "their_gain": 1.1,
+   "pitch": "Offer Tee Higgins + Dalton Kincaid for Parker Washington \u2014 upgrades their starting lineup by ~1.1 ppg."
+  },
+  {
+   "partner": "Matt's Magnificent Team",
+   "give": [
+    "Dalton Kincaid (TE, BUF)",
+    "TreVeyon Henderson (RB, NE)"
+   ],
+   "get": [
+    "David Montgomery (RB, HOU)"
+   ],
+   "my_gain": 1.1,
+   "their_gain": 1.0,
+   "pitch": "Offer Dalton Kincaid + TreVeyon Henderson for David Montgomery \u2014 upgrades their starting lineup by ~1.0 ppg."
+  }
+ ],
+ "pending_claims": [
+  "Tyler Shough for Jayden Daniels"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Fri 09/25 10:03",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.8: Adonai Mitchell FLEX\u2192BE; Rashod Bateman BE\u2192FLEX",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 09/24 04:06",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Rashod Bateman / drop Justice Hill",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/23 18:58",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.9: Travis Etienne Jr. RB\u2192BE; TreVeyon Henderson BE\u2192RB; Jalen Coker FLEX\u2192BE; Adonai Mitchell BE\u2192FLEX",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/23 11:34",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Denzel Boston / drop Braelon Allen",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/23 03:40",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Adonai Mitchell / drop Keaton Mitchell",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/23 03:10",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Wed 09/23 02:40",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Wed 09/23 02:10",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Wed 09/23 01:40",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Wed 09/23 01:09",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Wed 09/23 00:39",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  },
+  {
+   "at": "Wed 09/23 00:09",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Tyler Shough / drop Jayden Daniels",
+   "result": "Write failed 409: {\"messages\":[\"A pending transaction of this type already exists.\"],\"details\":[{\"message\":\"A pending transaction of this type already exists.\",\"shortMessage\":\"A pending transaction of this type already exists.\",\"resolution\":null,\"type\":\"TRAN_DUPLICATE_PENDING_TRANSACTION\",\"metaData\":null}]}"
+  }
+ ],
+ "espn_auth_ok": true
+}

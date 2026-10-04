@@ -1,0 +1,440 @@
+{
+ "updated": "2026-10-03T22:37",
+ "week": 4,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 117.4,
+ "current_lineup": 117.4,
+ "bench_gain": 0.0,
+ "win_probability": 0.46,
+ "opponent": "Mister O",
+ "matchup": "117 to 121",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "nfl": "HOU",
+   "ep": 22.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 18.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "nfl": "NE",
+   "ep": 9.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 14.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 13.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "nfl": "BUF",
+   "ep": 9.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Packers D/ST",
+   "pos": "DST",
+   "nfl": "GB",
+   "ep": 9.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Will Reichard",
+   "pos": "K",
+   "nfl": "MIN",
+   "ep": 9.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "nfl": "LV",
+   "ep": 11.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "ep": 8.3,
+   "ros": 7.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Brenton Strange",
+   "pos": "TE",
+   "ep": 8.3,
+   "ros": 6.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "ep": 8.0,
+   "ros": 9.2,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "ep": 6.8,
+   "ros": 5.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 2.7,
+   "actual": null,
+   "game": "pending",
+   "status": "INJURY_RESERVE"
+  }
+ ],
+ "waiver_priority": "#5 of 10",
+ "targets": [
+  {
+   "add": "Malik Washington",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "Brenton Strange",
+   "score": 1.5,
+   "wk": 0.0,
+   "ros": -0.1,
+   "adds_24h": 60600,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "60,600 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Emanuel Wilson",
+   "pos": "RB",
+   "nfl": "SEA",
+   "drop": "Brenton Strange",
+   "score": 1.5,
+   "wk": 0.1,
+   "ros": -0.8,
+   "adds_24h": 1122030,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "1,122,030 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Brian Robinson Jr.",
+   "pos": "RB",
+   "nfl": "ATL",
+   "drop": "Brenton Strange",
+   "score": 1.3,
+   "wk": 0.0,
+   "ros": -0.2,
+   "adds_24h": 25500,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "25,500 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Darren Waller",
+   "pos": "TE",
+   "nfl": "CAR",
+   "drop": "Brenton Strange",
+   "score": 1.1,
+   "wk": 0.0,
+   "ros": -0.7,
+   "adds_24h": 133731,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "133,731 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kalif Raymond",
+   "pos": "WR",
+   "nfl": "CHI",
+   "drop": "Brenton Strange",
+   "score": 1.1,
+   "wk": 0.0,
+   "ros": -0.4,
+   "adds_24h": 20676,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "20,676 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Justice Hill",
+   "pos": "RB",
+   "nfl": "BAL",
+   "drop": "Brenton Strange",
+   "score": 0.8,
+   "wk": 0.0,
+   "ros": -0.7,
+   "adds_24h": 20304,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "20,304 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kendre Miller",
+   "pos": "RB",
+   "nfl": "NO",
+   "drop": "Brenton Strange",
+   "score": 0.5,
+   "wk": 0.0,
+   "ros": -1.0,
+   "adds_24h": 21000,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "21,000 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Keaton Mitchell",
+   "pos": "RB",
+   "nfl": "LAC",
+   "drop": "Brenton Strange",
+   "score": 0.4,
+   "wk": 0.0,
+   "ros": -1.3,
+   "adds_24h": 41247,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "41,247 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "DK Metcalf (WR, PIT)"
+   ],
+   "get": [
+    "Brock Purdy (QB, SF)"
+   ],
+   "my_gain": 2.8,
+   "their_gain": -0.1,
+   "pitch": "Offer DK Metcalf for Brock Purdy \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Brenton Strange (TE, JAX)"
+   ],
+   "get": [
+    "Trevor Lawrence (QB, JAX)"
+   ],
+   "my_gain": 2.7,
+   "their_gain": 0.0,
+   "pitch": "Offer Brenton Strange for Trevor Lawrence \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Brenton Strange (TE, JAX)"
+   ],
+   "get": [
+    "Patrick Mahomes (QB, KC)"
+   ],
+   "my_gain": 2.5,
+   "their_gain": 0.0,
+   "pitch": "Offer Brenton Strange for Patrick Mahomes \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "3 Rings Lathrop",
+   "give": [
+    "Brock Bowers (TE, LV)",
+    "RJ Harvey (RB, DEN)"
+   ],
+   "get": [
+    "Jaylen Warren (RB, PIT)"
+   ],
+   "my_gain": 1.7,
+   "their_gain": 1.8,
+   "pitch": "Offer Brock Bowers + RJ Harvey for Jaylen Warren \u2014 upgrades their starting lineup by ~1.8 ppg."
+  },
+  {
+   "partner": "3 Rings Lathrop",
+   "give": [
+    "Brock Bowers (TE, LV)",
+    "RJ Harvey (RB, DEN)"
+   ],
+   "get": [
+    "Saquon Barkley (RB, PHI)"
+   ],
+   "my_gain": 1.4,
+   "their_gain": 2.1,
+   "pitch": "Offer Brock Bowers + RJ Harvey for Saquon Barkley \u2014 upgrades their starting lineup by ~2.1 ppg."
+  },
+  {
+   "partner": "Rose Knows",
+   "give": [
+    "Tee Higgins (WR, CIN)",
+    "Denzel Boston (WR, CLE)"
+   ],
+   "get": [
+    "Zay Flowers (WR, BAL) [QUESTIONABLE]"
+   ],
+   "my_gain": 1.1,
+   "their_gain": 0.1,
+   "pitch": "Offer Tee Higgins + Denzel Boston for Zay Flowers \u2014 they add ~2.3 ppg of real bench value."
+  }
+ ],
+ "pending_claims": [
+  "Braelon Allen for Terrance Ferguson"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Sat 10/03 22:16",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) C.J. Stroud / drop Tyler Shough",
+   "result": "ok"
+  },
+  {
+   "at": "Sat 10/03 00:03",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Packers D/ST / drop Eagles D/ST",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 10/02 07:05",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Will Reichard / drop Tyler Loop",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/01 06:44",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Brenton Strange / drop Kalif Raymond",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/01 06:14",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Tyler Allgeier / drop Adonai Mitchell",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/30 06:07",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Kalif Raymond / drop Romeo Doubs",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 09/30 03:36",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Adonai Mitchell / drop Terrance Ferguson",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 09/29 06:02",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Braelon Allen / drop Terrance Ferguson",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 09/29 03:01",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+22.0: Brock Bowers BE\u2192FLEX; Travis Etienne Jr. RB\u2192BE; TreVeyon Henderson BE\u2192RB; Jalen Coker FLEX\u2192BE",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 09/27 12:07",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Terrance Ferguson / drop Rashod Bateman",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 09/27 11:45",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+1.4: Jalen Coker BE\u2192FLEX; Rashod Bateman FLEX\u2192BE",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 09/27 11:41",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) RJ Harvey / drop Adonai Mitchell",
+   "result": "ok"
+  }
+ ],
+ "espn_auth_ok": true
+}

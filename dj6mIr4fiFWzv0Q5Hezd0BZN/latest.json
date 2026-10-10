@@ -1,0 +1,457 @@
+{
+ "updated": "2026-10-10T19:28",
+ "week": 5,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 106.9,
+ "current_lineup": 106.9,
+ "bench_gain": 0.0,
+ "win_probability": 0.41,
+ "opponent": "Rusty G Bucketz",
+ "matchup": "107 to 114",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "nfl": "HOU",
+   "ep": 16.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 14.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "nfl": "NE",
+   "ep": 9.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 11.1,
+   "actual": 1.0,
+   "game": "final",
+   "status": "QUESTIONABLE",
+   "sleeper": "Questionable"
+  },
+  {
+   "slot": "WR",
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "nfl": "PIT",
+   "ep": 12.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "nfl": "LV",
+   "ep": 10.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Jaguars D/ST",
+   "pos": "DST",
+   "nfl": "JAX",
+   "ep": 9.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Jake Bates",
+   "pos": "K",
+   "nfl": "DET",
+   "ep": 9.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "nfl": "SEA",
+   "ep": 12.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "ep": 8.9,
+   "ros": 7.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "ep": 7.9,
+   "ros": 6.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "ep": 7.5,
+   "ros": 9.4,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Brenton Strange",
+   "pos": "TE",
+   "ep": 7.3,
+   "ros": 6.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "ep": 6.9,
+   "ros": 6.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 2.6,
+   "actual": null,
+   "game": "pending",
+   "status": "INJURY_RESERVE"
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "ep": 0.0,
+   "ros": 8.9,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  }
+ ],
+ "scored": 1.0,
+ "still_to_play": 8,
+ "waiver_priority": "#7 of 10",
+ "targets": [
+  {
+   "add": "Brian Robinson Jr.",
+   "pos": "RB",
+   "nfl": "ATL",
+   "drop": "Tyler Allgeier",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.4,
+   "adds_24h": 36528,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "36,528 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Malik Washington",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "Tyler Allgeier",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.5,
+   "adds_24h": 77824,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "77,824 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Keaton Mitchell",
+   "pos": "RB",
+   "nfl": "LAC",
+   "drop": "Tyler Allgeier",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.5,
+   "adds_24h": 68643,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "68,643 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Roman Wilson",
+   "pos": "WR",
+   "nfl": "PIT",
+   "drop": "Tyler Allgeier",
+   "score": 1.1,
+   "wk": 0.0,
+   "ros": -0.8,
+   "adds_24h": 280584,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "280,584 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Khalil Shakir",
+   "pos": "WR",
+   "nfl": "BUF",
+   "drop": "Tyler Allgeier",
+   "score": 0.8,
+   "wk": 0.0,
+   "ros": -0.8,
+   "adds_24h": 47367,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "47,367 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Mike Gesicki",
+   "pos": "TE",
+   "nfl": "CIN",
+   "drop": "Tyler Allgeier",
+   "score": 0.6,
+   "wk": 0.0,
+   "ros": -1.0,
+   "adds_24h": 32932,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "32,932 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Michael Mayer",
+   "pos": "TE",
+   "nfl": "LV",
+   "drop": "Tyler Allgeier",
+   "score": 0.4,
+   "wk": 0.0,
+   "ros": -1.2,
+   "adds_24h": 45135,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "45,135 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Keon Coleman",
+   "pos": "WR",
+   "nfl": "BUF",
+   "drop": "Tyler Allgeier",
+   "score": 0.2,
+   "wk": 0.0,
+   "ros": -1.4,
+   "adds_24h": 62703,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "62,703 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Dalton Kincaid (TE, BUF)"
+   ],
+   "get": [
+    "Brock Purdy (QB, SF)"
+   ],
+   "my_gain": 3.1,
+   "their_gain": 0.0,
+   "pitch": "Offer Dalton Kincaid for Brock Purdy \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Tee Higgins (WR, CIN) [QUESTIONABLE]"
+   ],
+   "get": [
+    "Trevor Lawrence (QB, JAX)"
+   ],
+   "my_gain": 3.3,
+   "their_gain": -0.4,
+   "pitch": "Offer Tee Higgins for Trevor Lawrence \u2014 they add ~1.6 ppg of real bench value."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Travis Etienne Jr. (RB, NO) [INJURY_RESERVE]"
+   ],
+   "get": [
+    "Patrick Mahomes (QB, KC)"
+   ],
+   "my_gain": 2.4,
+   "their_gain": 0.0,
+   "pitch": "Offer Travis Etienne Jr. for Patrick Mahomes \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Mister O",
+   "give": [
+    "Travis Etienne Jr. (RB, NO) [INJURY_RESERVE]"
+   ],
+   "get": [
+    "Bryce Young (QB, CAR)"
+   ],
+   "my_gain": 2.1,
+   "their_gain": 0.0,
+   "pitch": "Offer Travis Etienne Jr. for Bryce Young \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Matt's Magnificent Team",
+   "give": [
+    "Brock Bowers (TE, LV)"
+   ],
+   "get": [
+    "Jared Goff (QB, DET)"
+   ],
+   "my_gain": 1.5,
+   "their_gain": -0.1,
+   "pitch": "Offer Brock Bowers for Jared Goff \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Matt's Magnificent Team",
+   "give": [
+    "Travis Etienne Jr. (RB, NO) [INJURY_RESERVE]"
+   ],
+   "get": [
+    "Tyler Shough (QB, NO)"
+   ],
+   "my_gain": 1.2,
+   "their_gain": 0.0,
+   "pitch": "Offer Travis Etienne Jr. for Tyler Shough \u2014 roughly even for them; sell it on fit."
+  }
+ ],
+ "pending_claims": [
+  "Broncos D/ST for Packers D/ST"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Thu 10/08 18:48",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:46",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:45",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:43",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:41",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:40",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:38",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:37",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:35",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:33",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:32",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  },
+  {
+   "at": "Thu 10/08 18:30",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  }
+ ],
+ "espn_auth_ok": true
+}

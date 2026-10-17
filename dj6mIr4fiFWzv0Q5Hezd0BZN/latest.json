@@ -1,0 +1,451 @@
+{
+ "updated": "2026-10-17T14:01",
+ "week": 6,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 123.0,
+ "current_lineup": 123.0,
+ "bench_gain": 0.0,
+ "win_probability": 0.45,
+ "opponent": "Black Lives Matter",
+ "matchup": "123 to 128",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "nfl": "NO",
+   "ep": 19.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "nfl": "SEA",
+   "ep": 12.5,
+   "actual": 5.0,
+   "game": "final",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 22.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 16.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "nfl": "CAR",
+   "ep": 10.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "nfl": "LV",
+   "ep": 14.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Jaguars D/ST",
+   "pos": "DST",
+   "nfl": "JAX",
+   "ep": 8.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Matt Gay",
+   "pos": "K",
+   "nfl": "LV",
+   "ep": 9.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "nfl": "BUF",
+   "ep": 9.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "ep": 13.7,
+   "ros": 13.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "ep": 9.1,
+   "ros": 7.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Xavier Worthy",
+   "pos": "WR",
+   "ep": 9.1,
+   "ros": 7.2,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Brenton Strange",
+   "pos": "TE",
+   "ep": 6.7,
+   "ros": 5.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "ep": 0.0,
+   "ros": 8.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 2.6,
+   "actual": null,
+   "game": "pending",
+   "status": "INJURY_RESERVE"
+  }
+ ],
+ "scored": 5.0,
+ "still_to_play": 8,
+ "waiver_priority": "#6 of 10",
+ "targets": [
+  {
+   "add": "Blake Grupe",
+   "pos": "K",
+   "nfl": "LAR",
+   "drop": "Matt Gay",
+   "score": 1.4,
+   "wk": 0.1,
+   "ros": -0.4,
+   "adds_24h": 32679,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "32,679 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Tyler Higbee",
+   "pos": "TE",
+   "nfl": "LAR",
+   "drop": "Brenton Strange",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.7,
+   "adds_24h": 339786,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "339,786 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Tre Tucker",
+   "pos": "WR",
+   "nfl": "LV",
+   "drop": "Brenton Strange",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.5,
+   "adds_24h": 61032,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "61,032 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Khalil Shakir",
+   "pos": "WR",
+   "nfl": "BUF",
+   "drop": "Brenton Strange",
+   "score": 1.1,
+   "wk": 0.0,
+   "ros": -0.6,
+   "adds_24h": 48726,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "48,726 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Nick Folk",
+   "pos": "K",
+   "nfl": "ATL",
+   "drop": "Matt Gay",
+   "score": 0.9,
+   "wk": -0.3,
+   "ros": -0.4,
+   "adds_24h": 71778,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "71,778 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Keaton Mitchell",
+   "pos": "RB",
+   "nfl": "LAC",
+   "drop": "Brenton Strange",
+   "score": 0.9,
+   "wk": 0.0,
+   "ros": -0.8,
+   "adds_24h": 57501,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "57,501 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "TreVeyon Henderson",
+   "pos": "RB",
+   "nfl": "NE",
+   "drop": "Brenton Strange",
+   "score": 0.8,
+   "wk": 0.0,
+   "ros": 0.8,
+   "adds_24h": 0,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+0.8 ppg rest of season over Brenton Strange; note: questionable"
+  },
+  {
+   "add": "Tyler Bass",
+   "pos": "K",
+   "nfl": "BUF",
+   "drop": "Matt Gay",
+   "score": 0.6,
+   "wk": -0.3,
+   "ros": -0.6,
+   "adds_24h": 45415,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "45,415 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Toe Burrow",
+   "give": [
+    "CeeDee Lamb (WR, DAL)"
+   ],
+   "get": [
+    "Javonte Williams (RB, DAL)"
+   ],
+   "my_gain": 2.1,
+   "their_gain": 1.7,
+   "pitch": "Offer CeeDee Lamb for Javonte Williams \u2014 upgrades their starting lineup by ~1.7 ppg."
+  },
+  {
+   "partner": "Toe Burrow",
+   "give": [
+    "Jalen Coker (WR, CAR)"
+   ],
+   "get": [
+    "Bhayshul Tuten (RB, JAX)"
+   ],
+   "my_gain": 2.0,
+   "their_gain": 1.7,
+   "pitch": "Offer Jalen Coker for Bhayshul Tuten \u2014 upgrades their starting lineup by ~1.7 ppg."
+  },
+  {
+   "partner": "Toe Burrow",
+   "give": [
+    "CeeDee Lamb (WR, DAL)"
+   ],
+   "get": [
+    "Ashton Jeanty (RB, LV)"
+   ],
+   "my_gain": 1.7,
+   "their_gain": 2.1,
+   "pitch": "Offer CeeDee Lamb for Ashton Jeanty \u2014 upgrades their starting lineup by ~2.1 ppg."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Tyler Shough (QB, NO)"
+   ],
+   "get": [
+    "Patrick Mahomes (QB, KC)"
+   ],
+   "my_gain": 1.7,
+   "their_gain": 0.0,
+   "pitch": "Offer Tyler Shough for Patrick Mahomes \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Mister O",
+   "give": [
+    "Dalton Kincaid (TE, BUF)"
+   ],
+   "get": [
+    "Bryce Young (QB, CAR)"
+   ],
+   "my_gain": 1.4,
+   "their_gain": 0.0,
+   "pitch": "Offer Dalton Kincaid for Bryce Young \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Rose Knows",
+   "give": [
+    "DK Metcalf (WR, PIT)",
+    "Jalen Coker (WR, CAR)"
+   ],
+   "get": [
+    "Zay Flowers (WR, BAL)"
+   ],
+   "my_gain": 1.0,
+   "their_gain": 0.1,
+   "pitch": "Offer DK Metcalf + Jalen Coker for Zay Flowers \u2014 they add ~1.3 ppg of real bench value."
+  }
+ ],
+ "pending_claims": [
+  "Blake Grupe for Jake Bates",
+  "Tyler Bass for Jake Bates",
+  "Harrison Butker for Jake Bates"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Fri 10/16 19:26",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.6: DK Metcalf WR\u2192BE; Jalen Coker FLEX\u2192WR; Dalton Kincaid BE\u2192FLEX",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 10/16 03:40",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Tyler Shough / drop Jameis Winston",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/15 04:07",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Tyjae Spears / drop Tyler Allgeier",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/15 03:37",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Xavier Worthy / drop TreVeyon Henderson",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 10/14 19:13",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+1.9: Jalen Coker BE\u2192FLEX; Dalton Kincaid FLEX\u2192BE",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 10/14 03:40",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Tyler Bass / drop Jake Bates",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 10/14 03:10",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Blake Grupe / drop Jake Bates",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 10/13 03:36",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Harrison Butker / drop Jake Bates",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 10/13 03:05",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Matt Gay / drop Jake Bates",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 10/13 03:05",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+9.5: Tee Higgins FLEX\u2192BE; Dalton Kincaid BE\u2192FLEX",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 10/11 11:45",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+0.4: Tee Higgins BE\u2192FLEX; TreVeyon Henderson RB\u2192BE; Emanuel Wilson FLEX\u2192RB",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/08 18:48",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Mike Gesicki / drop Tyler Allgeier",
+   "result": "Write failed 409: {\"messages\":[\"Too many players with default position TE (maximum 3).\"],\"details\":[{\"message\":\"Too many players with default position TE (maximum 3).\",\"shortMessage\":\"Too many players with default position TE (maximum 3).\",\"resolution\":\"You must drop a player with default position TE to clear your ro"
+  }
+ ],
+ "espn_auth_ok": true
+}

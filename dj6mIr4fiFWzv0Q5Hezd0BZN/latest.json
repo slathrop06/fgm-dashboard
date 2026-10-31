@@ -1,0 +1,457 @@
+{
+ "updated": "2026-10-31T13:19",
+ "week": 8,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 104.7,
+ "current_lineup": 104.7,
+ "bench_gain": 0.0,
+ "win_probability": 0.7,
+ "opponent": "Leroy Bickerstaff",
+ "matchup": "105 to 89",
+ "moves": [
+  "Christian McCaffrey BE\u2192RB",
+  "RJ Harvey RB\u2192BE"
+ ],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "Geno Smith",
+   "pos": "QB",
+   "nfl": "NYJ",
+   "ep": 21.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "nfl": "ARI",
+   "ep": 7.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 0.0,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE",
+   "sleeper": "Questionable"
+  },
+  {
+   "slot": "WR",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "nfl": "CAR",
+   "ep": 13.2,
+   "actual": 8.0,
+   "game": "final",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 20.9,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "nfl": "LV",
+   "ep": 12.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Titans D/ST",
+   "pos": "DST",
+   "nfl": "TEN",
+   "ep": 2.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Will Reichard",
+   "pos": "K",
+   "nfl": "MIN",
+   "ep": 10.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 16.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "ep": 8.9,
+   "ros": 7.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Tre Tucker",
+   "pos": "WR",
+   "ep": 8.6,
+   "ros": 6.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Xavier Worthy",
+   "pos": "WR",
+   "ep": 6.1,
+   "ros": 5.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Malik Washington",
+   "pos": "WR",
+   "ep": 6.1,
+   "ros": 5.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 3.9,
+   "actual": null,
+   "game": "pending",
+   "status": "INJURY_RESERVE"
+  },
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 1.7,
+   "actual": null,
+   "game": "pending",
+   "status": "OUT"
+  },
+  {
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "ep": 0.0,
+   "ros": 12.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  }
+ ],
+ "scored": 8.0,
+ "still_to_play": 8,
+ "waiver_priority": "#5 of 10",
+ "targets": [
+  {
+   "add": "Samaje Perine",
+   "pos": "RB",
+   "nfl": "CIN",
+   "drop": "RJ Harvey",
+   "score": 18.4,
+   "wk": 8.6,
+   "ros": 3.7,
+   "adds_24h": 99140,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+8.6 to this week's lineup; +3.7 ppg rest of season over RJ Harvey; 99,140 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "nfl": "JAX",
+   "drop": "RJ Harvey",
+   "score": 14.6,
+   "wk": 6.7,
+   "ros": 3.0,
+   "adds_24h": 44982,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+6.6 to this week's lineup; +3.0 ppg rest of season over RJ Harvey; 44,982 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kimani Vidal",
+   "pos": "RB",
+   "nfl": "LAC",
+   "drop": "RJ Harvey",
+   "score": 13.0,
+   "wk": 5.3,
+   "ros": 3.4,
+   "adds_24h": 37440,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+5.3 to this week's lineup; +3.4 ppg rest of season over RJ Harvey; 37,440 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Justice Hill",
+   "pos": "RB",
+   "nfl": "BAL",
+   "drop": "RJ Harvey",
+   "score": 12.2,
+   "wk": 5.7,
+   "ros": 2.1,
+   "adds_24h": 18342,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+5.7 to this week's lineup; +2.1 ppg rest of season over RJ Harvey"
+  },
+  {
+   "add": "Tyler Goodson",
+   "pos": "RB",
+   "nfl": "DAL",
+   "drop": "RJ Harvey",
+   "score": 11.7,
+   "wk": 5.8,
+   "ros": 1.6,
+   "adds_24h": 17061,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+5.8 to this week's lineup; +1.6 ppg rest of season over RJ Harvey"
+  },
+  {
+   "add": "Mike Washington Jr.",
+   "pos": "RB",
+   "nfl": "LV",
+   "drop": "RJ Harvey",
+   "score": 10.6,
+   "wk": 5.4,
+   "ros": 2.5,
+   "adds_24h": 0,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+5.4 to this week's lineup; +2.5 ppg rest of season over RJ Harvey"
+  },
+  {
+   "add": "Chiefs D/ST",
+   "pos": "DST",
+   "nfl": "KC",
+   "drop": "Titans D/ST",
+   "score": 10.5,
+   "wk": 5.0,
+   "ros": 3.0,
+   "adds_24h": 0,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+5.0 to this week's lineup; +3.0 ppg rest of season over Titans D/ST"
+  },
+  {
+   "add": "Ty Johnson",
+   "pos": "RB",
+   "nfl": "BUF",
+   "drop": "RJ Harvey",
+   "score": 9.8,
+   "wk": 4.4,
+   "ros": 1.8,
+   "adds_24h": 6984,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+4.4 to this week's lineup; +1.8 ppg rest of season over RJ Harvey"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Rusty G Bucketz",
+   "give": [
+    "Tee Higgins (WR, CIN)"
+   ],
+   "get": [
+    "Trevor Lawrence (QB, JAX)"
+   ],
+   "my_gain": 3.3,
+   "their_gain": 0.1,
+   "pitch": "Offer Tee Higgins for Trevor Lawrence \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Rusty G Bucketz",
+   "give": [
+    "DK Metcalf (WR, PIT)"
+   ],
+   "get": [
+    "Kyler Murray (QB, MIN)"
+   ],
+   "my_gain": 1.9,
+   "their_gain": 1.5,
+   "pitch": "Offer DK Metcalf for Kyler Murray \u2014 upgrades their starting lineup by ~1.5 ppg."
+  },
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Tee Higgins (WR, CIN)"
+   ],
+   "get": [
+    "Chuba Hubbard (RB, CAR)"
+   ],
+   "my_gain": 2.5,
+   "their_gain": -0.2,
+   "pitch": "Offer Tee Higgins for Chuba Hubbard \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Black Lives Matter",
+   "give": [
+    "CeeDee Lamb (WR, DAL)"
+   ],
+   "get": [
+    "Bijan Robinson (RB, ATL)"
+   ],
+   "my_gain": 2.2,
+   "their_gain": 0.2,
+   "pitch": "Offer CeeDee Lamb for Bijan Robinson \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Rusty G Bucketz",
+   "give": [
+    "DK Metcalf (WR, PIT)"
+   ],
+   "get": [
+    "Cam Skattebo (RB, NYG) [QUESTIONABLE]"
+   ],
+   "my_gain": 2.3,
+   "their_gain": -0.3,
+   "pitch": "Offer DK Metcalf for Cam Skattebo \u2014 roughly even for them; sell it on fit."
+  },
+  {
+   "partner": "Rose Knows",
+   "give": [
+    "Tee Higgins (WR, CIN)"
+   ],
+   "get": [
+    "Josh Jacobs (RB, GB)"
+   ],
+   "my_gain": 1.9,
+   "their_gain": 1.4,
+   "pitch": "Offer Tee Higgins for Josh Jacobs \u2014 upgrades their starting lineup by ~1.3 ppg."
+  }
+ ],
+ "pending_claims": [],
+ "recent_decisions": [
+  {
+   "at": "Fri 10/23 04:35",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Tre Tucker / drop Brenton Strange",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 10/23 04:05",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Xavier Worthy / drop Dalton Kincaid",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/22 04:34",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Malik Washington / drop Khalil Shakir",
+   "result": "ok"
+  },
+  {
+   "at": "Thu 10/22 04:04",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Tyler Allgeier / drop Emanuel Wilson",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 10/21 04:35",
+   "kind": "cancel",
+   "executed": true,
+   "summary": "claim withdrawn: Texans D/ST for Jaguars D/ST",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 10/21 04:05",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Titans D/ST / drop Jaguars D/ST",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 10/21 03:35",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Texans D/ST / drop Jaguars D/ST",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 10/20 03:40",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Chris Boswell / drop Matt Gay",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 10/20 03:10",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Will Reichard / drop Matt Gay",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 10/20 03:10",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+15.5: Tee Higgins BE\u2192FLEX; DK Metcalf FLEX\u2192BE; Emanuel Wilson RB\u2192BE; Tyler Shough QB\u2192BE; RJ Harvey BE\u2192RB; C.J. Stroud BE\u2192QB",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 10/18 16:20",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Khalil Shakir / drop Xavier Worthy",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 10/16 19:26",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.6: DK Metcalf WR\u2192BE; Jalen Coker FLEX\u2192WR; Dalton Kincaid BE\u2192FLEX",
+   "result": "ok"
+  }
+ ],
+ "espn_auth_ok": true
+}

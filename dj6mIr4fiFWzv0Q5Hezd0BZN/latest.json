@@ -1,0 +1,386 @@
+{
+ "updated": "2026-11-14T17:38",
+ "week": 10,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 120.0,
+ "current_lineup": 120.0,
+ "bench_gain": 0.0,
+ "win_probability": 0.62,
+ "opponent": "Matt's Magnificent Team",
+ "matchup": "120 to 110",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "nfl": "HOU",
+   "ep": 17.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 25.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Kaelon Black",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 7.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 17.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "nfl": "CAR",
+   "ep": 9.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "nfl": "LV",
+   "ep": 9.5,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "DST",
+   "name": "Colts D/ST",
+   "pos": "DST",
+   "nfl": "IND",
+   "ep": 8.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Jake Bates",
+   "pos": "K",
+   "nfl": "DET",
+   "ep": 9.4,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "nfl": "CIN",
+   "ep": 15.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "Geno Smith",
+   "pos": "QB",
+   "ep": 15.4,
+   "ros": 10.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "ep": 9.3,
+   "ros": 7.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "ep": 7.5,
+   "ros": 4.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Darnell Washington",
+   "pos": "TE",
+   "ep": 7.5,
+   "ros": 4.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "ep": 6.0,
+   "ros": 4.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "ep": 0.0,
+   "ros": 6.8,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  }
+ ],
+ "waiver_priority": "#7 of 10",
+ "targets": [
+  {
+   "add": "Dylan Sampson",
+   "pos": "RB",
+   "nfl": "CLE",
+   "drop": "Darnell Washington",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.3,
+   "adds_24h": 25195,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "25,195 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Tank Dell",
+   "pos": "WR",
+   "nfl": "HOU",
+   "drop": "Darnell Washington",
+   "score": 1.2,
+   "wk": 0.0,
+   "ros": -0.5,
+   "adds_24h": 56560,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "56,560 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Caleb Douglas",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "Darnell Washington",
+   "score": 0.9,
+   "wk": 0.0,
+   "ros": -0.7,
+   "adds_24h": 45056,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "45,056 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Konata Mumpfield",
+   "pos": "WR",
+   "nfl": "LAR",
+   "drop": "Darnell Washington",
+   "score": 0.9,
+   "wk": 0.0,
+   "ros": -0.8,
+   "adds_24h": 66753,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "66,753 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Justice Hill",
+   "pos": "RB",
+   "nfl": "BAL",
+   "drop": "Darnell Washington",
+   "score": 0.8,
+   "wk": 0.0,
+   "ros": -1.0,
+   "adds_24h": 150291,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "150,291 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Jordyn Tyson",
+   "pos": "WR",
+   "nfl": "NO",
+   "drop": "Darnell Washington",
+   "score": 0.8,
+   "wk": 0.0,
+   "ros": -0.8,
+   "adds_24h": 30904,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "30,904 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Colby Parkinson",
+   "pos": "TE",
+   "nfl": "LAR",
+   "drop": "Darnell Washington",
+   "score": 0.6,
+   "wk": 0.0,
+   "ros": -0.9,
+   "adds_24h": 28014,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "28,014 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Tyler Higbee",
+   "pos": "TE",
+   "nfl": "LAR",
+   "drop": "Darnell Washington",
+   "score": 0.5,
+   "wk": 0.0,
+   "ros": -1.2,
+   "adds_24h": 105570,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "105,570 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Leroy Bickerstaff",
+   "give": [
+    "Geno Smith (QB, NYJ)"
+   ],
+   "get": [
+    "Patrick Mahomes (QB, KC)"
+   ],
+   "my_gain": 1.2,
+   "their_gain": 0.0,
+   "pitch": "Offer Geno Smith for Patrick Mahomes \u2014 roughly even for them; sell it on fit."
+  }
+ ],
+ "pending_claims": [
+  "Audric Estime for Ryan Flournoy"
+ ],
+ "claims_process": "tomorrow ~3:30 AM",
+ "recent_decisions": [
+  {
+   "at": "Sat 11/14 14:14",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Colts D/ST / drop Chiefs D/ST",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 11/13 17:18",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+7.6: Kaelon Black BE\u2192RB",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 11/13 17:10",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Darnell Washington / drop Audric Estime",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 11/13 03:34",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "add Chris Rodriguez Jr.",
+   "result": "Write failed 409: {\"messages\":[\"Chris Rodriguez Jr. is not available, currently on team 10\"],\"details\":[{\"message\":\"Chris Rodriguez Jr. is not available, currently on team 10\",\"shortMessage\":\"Chris Rodriguez Jr. is not available, currently on team 10\",\"resolution\":null,\"type\":\"TRAN_PLAYER_NOT_AVAILABLE\",\"metaData\":nu"
+  },
+  {
+   "at": "Fri 11/13 03:34",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Chris Rodriguez Jr. / drop KC Concepcion",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 11/11 21:26",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) KC Concepcion / drop Malik Washington",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 11/11 03:31",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Austin Ekeler / drop Keenan Allen",
+   "result": "ok"
+  },
+  {
+   "at": "Wed 11/11 03:31",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.6: Kaelon Black RB\u2192BE; Audric Estime BE\u2192RB",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 11/10 21:18",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "claimed (waivers) Audric Estime / drop Ryan Flournoy",
+   "result": "ok"
+  },
+  {
+   "at": "Tue 11/10 03:05",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+3.7: Jalen Coker BE\u2192WR; Ryan Flournoy WR\u2192BE",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 11/08 12:13",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+1.7: Keenan Allen WR\u2192BE; Ryan Flournoy BE\u2192WR",
+   "result": "ok"
+  },
+  {
+   "at": "Sun 11/08 12:11",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Ryan Flournoy / drop Xavier Worthy",
+   "result": "ok"
+  }
+ ],
+ "espn_auth_ok": true
+}

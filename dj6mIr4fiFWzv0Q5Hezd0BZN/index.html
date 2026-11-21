@@ -1,0 +1,311 @@
+<!doctype html><html lang="en"><head><script>window.FGM_STATIC=1;</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Muddy Bottoms"><meta name="theme-color" content="#F6F3EC" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0F1524" media="(prefers-color-scheme: dark)"><link rel="apple-touch-icon" href="./icon-180.png"><link rel="icon" type="image/png" href="./icon-180.png"><link rel="manifest" href="./manifest.json">
+<title>Muddy Bottoms Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#F6F3EC; --sheet:#FFFFFF; --rule:#E2DDD1; --ink:#14213D; --ink-2:#3B4360; --mute:#6E7486;
+  --accent:#B5551D; --accent-ink:#FFFFFF; --good:#2E8B57; --warn:#C98A0B; --crit:#C0392B;
+  --good-bg:#E4F2EA; --warn-bg:#FBF0D6; --crit-bg:#F9E0DC; --chip:#EEEAE0; --bar:#FFFFFFF2;
+  --sat:env(safe-area-inset-top,0px); --sab:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --ground:#0F1524; --sheet:#18203A; --rule:#273052; --ink:#E9ECF5; --ink-2:#C3C9DC; --mute:#8B93AD;
+  --accent:#E0783A; --accent-ink:#0F1524; --good:#5CC48A; --warn:#E3B04B; --crit:#E8705F;
+  --good-bg:#173226; --warn-bg:#3A2E12; --crit-bg:#3E1D1A; --chip:#222B47; --bar:#0F1524F2;
+}}
+:root[data-theme="dark"]{
+  --ground:#0F1524; --sheet:#18203A; --rule:#273052; --ink:#E9ECF5; --ink-2:#C3C9DC; --mute:#8B93AD;
+  --accent:#E0783A; --accent-ink:#0F1524; --good:#5CC48A; --warn:#E3B04B; --crit:#E8705F;
+  --good-bg:#173226; --warn-bg:#3A2E12; --crit-bg:#3E1D1A; --chip:#222B47; --bar:#0F1524F2;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{background:var(--ground);overscroll-behavior-y:none}
+body{margin:0;background:var(--ground);color:var(--ink);font:15px/1.5 "IBM Plex Sans",-apple-system,system-ui,sans-serif;touch-action:manipulation}
+.wrap{max-width:1040px;margin:0 auto;padding:20px 16px 48px}
+.cond{font-family:"Barlow Condensed","Arial Narrow",system-ui,sans-serif}
+.num{font-variant-numeric:tabular-nums}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 16px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
+header h1{font:700 40px/1 "Barlow Condensed",system-ui,sans-serif;margin:0;letter-spacing:.01em;text-transform:uppercase}
+header .sub{color:var(--mute);font-size:13px;display:flex;align-items:center;gap:10px}
+.refresh{appearance:none;border:1px solid var(--rule);background:var(--sheet);color:var(--ink-2);border-radius:999px;width:34px;height:34px;display:inline-grid;place-items:center;cursor:pointer}
+.refresh svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.refresh.spin svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:18px 0 26px}
+.strip>div{background:var(--sheet);padding:12px 14px}
+.strip .v{font:600 34px/1 "Barlow Condensed",system-ui,sans-serif;margin-top:4px}
+.strip .d{font-size:12px;color:var(--mute);margin-top:2px}
+.pos{color:var(--good)}.neg{color:var(--crit)}
+.pages{display:grid;grid-template-columns:1.15fr 1fr;grid-template-areas:"lineup wire" "lineup trades" "log log";gap:0 26px}
+.page-lineup{grid-area:lineup}.page-wire{grid-area:wire}.page-trades{grid-area:trades}.page-log{grid-area:log}
+section h2{font:600 22px/1.1 "Barlow Condensed",system-ui,sans-serif;text-transform:uppercase;letter-spacing:.03em;margin:0 0 10px;display:flex;align-items:baseline;gap:10px}
+section h2 small{font:500 12px/1 "IBM Plex Sans",system-ui,sans-serif;letter-spacing:.08em;color:var(--mute);text-transform:uppercase}
+section{margin-bottom:28px}
+table{width:100%;border-collapse:collapse;background:var(--sheet);border:1px solid var(--rule)}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);font-weight:600;text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule)}
+td{padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+td.slot{font:600 15px/1 "Barlow Condensed",system-ui,sans-serif;color:var(--ink-2);width:48px;letter-spacing:.04em}
+td.name{font-weight:500}
+td.name .meta{color:var(--mute);font-size:12px;margin-left:6px;font-weight:400}
+td.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.r b{font:600 18px/1 "Barlow Condensed",system-ui,sans-serif}
+.pill{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;padding:2px 7px;border-radius:3px;line-height:1.4;white-space:nowrap}
+.pill.ok{background:var(--good-bg);color:var(--good)}.pill.q{background:var(--warn-bg);color:var(--warn)}.pill.out{background:var(--crit-bg);color:var(--crit)}
+.pill.chip{background:var(--chip);color:var(--ink-2)}
+.pill.live{background:var(--good-bg);color:var(--good)}
+td.r b.live{color:var(--good)}
+tr.bench td{color:var(--ink-2)}
+tr.bench td.name{font-weight:400}
+.moves{background:var(--sheet);border:1px solid var(--rule);border-left:4px solid var(--accent);padding:10px 14px;margin-top:10px}
+.moves .eyebrow{color:var(--accent)}
+.moves div{padding:3px 0}
+.arrow{color:var(--mute)}
+.card{background:var(--sheet);border:1px solid var(--rule);padding:12px 14px}
+.card+.card{border-top:0}
+.card .head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.card .who{font:600 19px/1.1 "Barlow Condensed",system-ui,sans-serif}
+.card .who .meta{font:400 12px/1 "IBM Plex Sans",system-ui,sans-serif;color:var(--mute);margin-left:6px}
+.card .why{color:var(--ink-2);font-size:13.5px;margin-top:4px;max-width:62ch}
+.card .stats{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--mute);margin-top:6px}
+.card .stats b{color:var(--ink);font-variant-numeric:tabular-nums;font-weight:600}
+.score{font:700 26px/1 "Barlow Condensed",system-ui,sans-serif;color:var(--accent);font-variant-numeric:tabular-nums}
+.empty{color:var(--mute);font-size:14px;padding:12px 14px;background:var(--sheet);border:1px dashed var(--rule)}
+.log .card{display:grid;grid-template-columns:78px 1fr;gap:10px;font-size:13.5px}
+.log .ts{color:var(--mute);font-variant-numeric:tabular-nums;font-size:12px;padding-top:2px}
+.log .t{font-weight:600}.log .b{color:var(--ink-2)}
+.note{color:var(--mute);font-size:12px;margin-top:18px;max-width:70ch}
+.act{display:none;font:600 14px/1 "IBM Plex Sans",system-ui,sans-serif;letter-spacing:.02em;background:var(--accent);color:var(--accent-ink);border:0;border-radius:6px;padding:12px 16px;min-height:44px;cursor:pointer;margin-top:8px}
+.act:hover{filter:brightness(1.08)}.act:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.act.sm{padding:10px 12px;font-size:13px;margin-top:8px}
+.served .act{display:inline-block}
+.static .act{display:inline-block;background:var(--chip);color:var(--ink-2);cursor:default}
+.act[disabled]{opacity:.55;cursor:default}
+#toast{position:fixed;left:50%;bottom:calc(22px + var(--sab));transform:translateX(-50%);background:var(--ink);color:var(--ground);padding:10px 16px;border-radius:8px;font-size:14px;max-width:92vw;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:20}
+#toast[hidden]{display:none}
+nav.tabs{display:none}
+
+/* ---------- phone: app chrome ---------- */
+@media (max-width:760px){
+  .wrap{padding:0 0 calc(76px + var(--sab))}
+  header{position:sticky;top:0;z-index:10;background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);
+    border-bottom:1px solid var(--rule);padding:calc(10px + var(--sat)) 16px 10px;align-items:center;flex-wrap:nowrap}
+  header h1{font-size:26px}
+  header>div:first-child{min-width:0}
+  header .eyebrow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  header .sub{font-size:0}          /* hide the timestamp text, keep the refresh button */
+  header .sub .refresh{font-size:14px}
+  header .proj{display:block}
+  .strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:8px;background:none;border:0;margin:12px 16px 10px;padding-bottom:2px;scrollbar-width:none}
+  .strip::-webkit-scrollbar{display:none}
+  .strip>div{flex:0 0 46%;scroll-snap-align:start;border:1px solid var(--rule);border-radius:10px;padding:10px 12px}
+  .strip .v{font-size:28px}
+  .pages{display:block;padding:0 16px}
+  .pages>section{display:none;margin-bottom:20px}
+  .pages>section.active{display:block}
+  section h2{font-size:20px;margin:8px 0 10px}
+  table,.card,.moves,.empty{border-radius:10px}
+  .card+.card{margin-top:8px;border-top:1px solid var(--rule)}
+  td{padding:10px 10px}
+  td.name .meta{display:block;margin-left:0;margin-top:1px}
+  .act,.act.sm{display:none;width:100%;font-size:15px;padding:14px 16px;min-height:48px}
+  .served .act,.served .act.sm{display:block}
+  nav.tabs{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:10;
+    background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);
+    border-top:1px solid var(--rule);padding:6px 0 calc(6px + var(--sab))}
+  nav.tabs button{appearance:none;background:none;border:0;color:var(--mute);font:600 11px/1 "IBM Plex Sans",system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;
+    display:grid;justify-items:center;gap:4px;padding:6px 0 2px;cursor:pointer;position:relative}
+  nav.tabs button svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  nav.tabs button.active{color:var(--accent)}
+  nav.tabs button .badge{position:absolute;top:2px;right:calc(50% - 20px);min-width:16px;height:16px;border-radius:8px;background:var(--crit);color:#fff;font-size:10px;line-height:16px;text-align:center;padding:0 4px}
+  .note{padding:0 16px}
+}
+@media (prefers-reduced-motion: reduce){.refresh.spin svg{animation:none}}
+</style>
+</head><body>
+<div class="wrap">
+<header><div><div class="eyebrow">Week 11 · Unlucky Fantasy Football League</div><h1>Muddy Bottoms</h1></div><div class="sub"><span>Updated Sat Nov 21, 4:43 PM</span><button class="refresh" aria-label="Refresh"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 11-2.3-5.7M20 4v5h-5"/></svg></button></div></header>
+<div class="strip">
+<div><div class="eyebrow">On pace</div><div class="v num">129.0</div><div class="d">25.0 scored · 8 still to play</div></div>
+<div><div class="eyebrow">Win probability</div><div class="v num pos">64%</div><div class="d">vs 3 Rings Lathrop · 128 to 116</div></div>
+<div><div class="eyebrow">Waiver priority</div><div class="v num">#9</div><div class="d">of 10 · rolling</div></div>
+<div><div class="eyebrow">Starters at risk</div><div class="v num neg">1</div><div class="d">Bowers</div></div>
+<div><div class="eyebrow">Pending claim</div><div class="v cond">Cade Otton</div><div class="d">for Chris Rodriguez Jr. · processes tomorrow ~3:30 AM</div></div>
+</div>
+<div class="pages">
+<section class="page-lineup" data-page="lineup"><h2>Optimal lineup <small>scored · expected · ROS ppg</small></h2><table><tr><th></th><th>Player</th><th style="text-align:right">Wk</th><th style="text-align:right">ROS</th></tr>
+<tr><td class="slot">QB</td><td class="name">C.J. Stroud <span class="meta">QB · HOU · ESPN 26.6 · Sleeper 20.5 · vegas ×1.00 · dvp ×1.02 · vs IND +0.0, o/u ?</span></td><td class="r"><b>25.0</b> <span class="meta">proj 24.1</span> <span class="pill chip">Final</span></td><td class="r">15.1</td></tr>
+<tr><td class="slot">RB</td><td class="name">Christian McCaffrey <span class="meta">RB · SF · ESPN 16.9 · Sleeper 18.1 · vegas ×1.06 · dvp ×0.92 · vs MIN -3.5, o/u 46.5</span></td><td class="r"><b>17.0</b> </td><td class="r">10.8</td></tr>
+<tr><td class="slot">RB</td><td class="name">Travis Etienne Jr. <span class="meta">RB · NO · ESPN 9.6 · Sleeper 7.7 · vegas ×0.88 · dvp ×0.96 · weather ×1.02 · @ CHI +11.5, o/u 48.5</span></td><td class="r"><b>7.5</b> </td><td class="r">5.7</td></tr>
+<tr><td class="slot">WR</td><td class="name">CeeDee Lamb <span class="meta">WR · DAL · ESPN 19.0 · Sleeper 17.9 · vegas ×1.15 · dvp ×1.12 · vs TEN -7.5, o/u 54.5</span></td><td class="r"><b>23.8</b> </td><td class="r">12.0</td></tr>
+<tr><td class="slot">WR</td><td class="name">Ryan Flournoy <span class="meta">WR · DAL · ESPN 7.4 · Sleeper 8.4 · vegas ×1.15 · dvp ×1.12 · vs TEN -7.5, o/u 54.5</span></td><td class="r"><b>10.1</b> </td><td class="r">5.0</td></tr>
+<tr><td class="slot">TE</td><td class="name">Brock Bowers <span class="pill q">Q · Ankle</span><span class="meta">TE · LV · ESPN 12.0 · Sleeper 12.0 · vegas ×0.85 · dvp ×1.12 · @ DEN +10.5, o/u 40.5</span></td><td class="r"><b>8.0</b> <span class="meta">of 11.4</span></td><td class="r">7.7</td></tr>
+<tr><td class="slot">DST</td><td class="name">Chiefs D/ST <span class="meta">DST · KC · ESPN 8.0 · Sleeper 12.3 · vegas ×1.15 · vs ARI -15.5, o/u 40.5</span></td><td class="r"><b>11.7</b> </td><td class="r">6.0</td></tr>
+<tr><td class="slot">K</td><td class="name">Cairo Santos <span class="meta">K · CHI · ESPN 9.8 · Sleeper 8.1 · vegas ×1.12 · weather ×0.88 · vs NO -11.5, o/u 48.5</span></td><td class="r"><b>8.8</b> </td><td class="r">5.7</td></tr>
+<tr><td class="slot">FLEX</td><td class="name">Tee Higgins <span class="meta">WR · CIN · ESPN 13.9 · Sleeper 15.9 · vegas ×1.15 · @ WSH -6.0, o/u 54.5</span></td><td class="r"><b>17.1</b> </td><td class="r">9.8</td></tr>
+</table>
+<table style="margin-top:12px"><tr><th></th><th>Bench</th><th style="text-align:right">Wk</th><th style="text-align:right">ROS</th></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">Geno Smith <span class="pill chip" title="the agent will never drop this player">🔒 top-6 on your roster</span><span class="meta">QB · NYJ · ESPN 15.5 · Sleeper 16.2 · vegas ×0.92 · dvp ×0.94 · @ LAC +3.0, o/u 42.5</span></td><td class="r"><b>13.7</b> </td><td class="r">8.5</td></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">Josh Johnson <span class="meta">RB · FA · ESPN 0.0 · Sleeper 8.8</span></td><td class="r"><b>7.4</b> </td><td class="r">7.4</td></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">DK Metcalf <span class="pill chip" title="the agent will never drop this player">🔒 88% rostered</span><span class="meta">WR · PIT · ESPN 9.4 · Sleeper 8.1 · vegas ×0.94 · dvp ×1.04 · @ PHI -3.5, o/u 37.5</span></td><td class="r"><b>8.5</b> </td><td class="r">6.0</td></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">Jordan Mason <span class="meta">RB · MIN · ESPN 6.8 · Sleeper 8.2 · vegas ×0.97 · dvp ×0.95 · @ SF +3.5, o/u 46.5</span></td><td class="r"><b>6.9</b> </td><td class="r">5.3</td></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">Samaje Perine <span class="meta">RB · CIN · ESPN 6.0 · Sleeper 6.6 · vegas ×1.15 · @ WSH -6.0, o/u 54.5</span></td><td class="r"><b>7.3</b> </td><td class="r">4.7</td></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">Tyler Allgeier <span class="meta">RB · ARI · ESPN 5.3 · Sleeper 6.7 · vegas ×0.85 · dvp ×0.92 · @ KC +15.5, o/u 40.5</span></td><td class="r"><b>4.7</b> </td><td class="r">3.7</td></tr>
+<tr class="bench"><td class="slot">BE</td><td class="name">Kaelon Black <span class="meta">RB · SF · ESPN 5.1 · Sleeper 4.4 · vegas ×1.06 · dvp ×0.92 · vs MIN -3.5, o/u 46.5</span></td><td class="r"><b>4.6</b> </td><td class="r">3.6</td></tr>
+</table></section>
+<section class="page-wire" data-page="wire">
+<h2>Pending claims <small>processes tomorrow ~3:30 AM</small></h2>
+<div class="card"><div class="head"><div class="who">Cade Otton<span class="meta">TE · TB</span></div><span class="pill q">Pending</span></div><div class="why">Drop Chris Rodriguez Jr.. Winning this sends you from #9 to #10 in waiver priority (slot value ≈ 0.4 ppg).</div><button class="act sm" data-act='{"action": "cancel", "txn": "4e7ed918-d587-4c72-be49-31fadcaf4121"}'>Cancel this claim</button></div>
+<div style="height:18px"></div>
+<h2>The wire <small>net of waiver-slot cost</small></h2>
+<div class="card"><div class="head"><div class="who">Jake Bates<span class="meta">K · DET</span>  <span class="pill chip">On waivers</span></div><div class="score num">2.2</div></div><div class="why">22,256 adds on Sleeper in 24h — market is moving. Contested (22,256 adds/24h, 53% rostered) but he&#x27;d sit on your bench this week — a rest-of-season upgrade only. Not worth #9 → #10 automatically (slot ≈ 0.4 ppg); tap Claim if you want him.</div><div class="stats"><span>drop <b>Cairo Santos</b></span><span>ROS <b>+0.3</b></span><span>this week <b>+0.5</b></span><span>market <b>22,256</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 4689936, "drop": 17427}'>Claim Bates, drop Santos</button></div>
+<div class="card"><div class="head"><div class="who">Elic Ayomanor<span class="meta">WR · TEN</span>  <span class="pill ok">Free agent</span></div><div class="score num">1.8</div></div><div class="why">56,396 adds on Sleeper in 24h — market is moving. Free agent — adding him costs nothing and keeps your waiver spot.</div><div class="stats"><span>drop <b>Kaelon Black</b></span><span>ROS <b>+0.2</b></span><span>this week <b>+0.0</b></span><span>market <b>56,396</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 4883647, "drop": 4696044}'>Add Ayomanor, drop Black</button></div>
+<div class="card"><div class="head"><div class="who">Chris Rodriguez Jr.<span class="meta">RB · JAX</span>  <span class="pill ok">Free agent</span></div><div class="score num">1.8</div></div><div class="why">52,857 adds on Sleeper in 24h — market is moving. Free agent — adding him costs nothing and keeps your waiver spot.</div><div class="stats"><span>drop <b>Kaelon Black</b></span><span>ROS <b>+0.2</b></span><span>this week <b>+0.0</b></span><span>market <b>52,857</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 4362619, "drop": 4696044}'>Add Jr., drop Black</button></div>
+<div class="card"><div class="head"><div class="who">Justice Hill<span class="meta">RB · BAL</span>  <span class="pill chip">On waivers</span></div><div class="score num">1.5</div></div><div class="why">135,522 adds on Sleeper in 24h — market is moving. Contested (135,522 adds/24h, 24% rostered) but he&#x27;d sit on your bench this week — a rest-of-season upgrade only. Not worth #9 → #10 automatically (slot ≈ 0.4 ppg); tap Claim if you want him.</div><div class="stats"><span>drop <b>Kaelon Black</b></span><span>ROS <b>+0.1</b></span><span>this week <b>+0.0</b></span><span>market <b>135,522</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 4038441, "drop": 4696044}'>Claim Hill, drop Black</button></div>
+<div class="card"><div class="head"><div class="who">Chase McLaughlin<span class="meta">K · TB</span>  <span class="pill ok">Free agent</span></div><div class="score num">1.3</div></div><div class="why">48,360 adds on Sleeper in 24h — market is moving. Free agent — adding him costs nothing and keeps your waiver spot.</div><div class="stats"><span>drop <b>Cairo Santos</b></span><span>ROS <b>+0.1</b></span><span>this week <b>-0.3</b></span><span>market <b>48,360</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 3150744, "drop": 17427}'>Add McLaughlin, drop Santos</button></div>
+<div class="card"><div class="head"><div class="who">Caleb Douglas<span class="meta">WR · MIA</span>  <span class="pill ok">Free agent</span></div><div class="score num">1.2</div></div><div class="why">34,544 adds on Sleeper in 24h — market is moving. Free agent — adding him costs nothing and keeps your waiver spot.</div><div class="stats"><span>drop <b>Kaelon Black</b></span><span>ROS <b>-0.4</b></span><span>this week <b>+0.0</b></span><span>market <b>34,544</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 4869645, "drop": 4696044}'>Add Douglas, drop Black</button></div>
+<div class="card"><div class="head"><div class="who">Mark Andrews<span class="meta">TE · BAL</span>  <span class="pill ok">Free agent</span></div><div class="score num">1.1</div></div><div class="why">84,087 adds on Sleeper in 24h — market is moving. Free agent — adding him costs nothing and keeps your waiver spot.</div><div class="stats"><span>drop <b>Kaelon Black</b></span><span>ROS <b>-0.6</b></span><span>this week <b>+0.0</b></span><span>market <b>84,087</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 3116365, "drop": 4696044}'>Add Andrews, drop Black</button></div>
+<div class="card"><div class="head"><div class="who">Pat Bryant<span class="meta">WR · DEN</span>  <span class="pill ok">Free agent</span></div><div class="score num">1.1</div></div><div class="why">89,952 adds on Sleeper in 24h — market is moving. Free agent — adding him costs nothing and keeps your waiver spot.</div><div class="stats"><span>drop <b>Kaelon Black</b></span><span>ROS <b>-0.7</b></span><span>this week <b>+0.0</b></span><span>market <b>89,952</b></span></div><button class="act sm" data-act='{"action": "waiver", "add": 4600981, "drop": 4696044}'>Add Bryant, drop Black</button></div>
+<div class="note">You hold waiver #9 of 10; winning any claim sends you to #10. The slot is worth about 0.4 ppg of rest-of-season value right now. Free agents cost nothing to add.</div>
+</section>
+<section class="page-trades" data-page="trades"><h2>Trade board <small>offers they would take</small></h2>
+<div class="card"><div class="head"><div class="who">Leroy Bickerstaff<span class="meta">Dean Eifert</span></div><div class="score num">+1.3</div></div><div class="why">Give <b>Travis Etienne Jr.</b> for <b>Carnell Tate</b>. roughly even for them; sell it on fit.</div><div class="stats"><span>your depth <b>-1.1</b></span><span>their lineup <b>-0.3</b></span></div></div>
+<div class="card"><div class="head"><div class="who">Leroy Bickerstaff<span class="meta">Dean Eifert</span></div><div class="score num">+1.0</div></div><div class="why">Give <b>Jordan Mason</b> for <b>Chris Olave</b>. roughly even for them; sell it on fit.</div><div class="stats"><span>your depth <b>-0.7</b></span><span>their lineup <b>+0.0</b></span></div></div>
+<div class="card"><div class="head"><div class="who">3 Rings Lathrop<span class="meta">Nick Lathrop</span></div><div class="score num">+0.8</div></div><div class="why">Give <b>Jordan Mason</b> for <b>Stefon Diggs</b>. roughly even for them; sell it on fit.</div><div class="stats"><span>your depth <b>-0.7</b></span><span>their lineup <b>-0.2</b></span></div></div>
+<div class="card"><div class="head"><div class="who">3 Rings Lathrop<span class="meta">Nick Lathrop</span></div><div class="score num">+0.7</div></div><div class="why">Give <b>Jordan Mason</b> for <b>Saquon Barkley</b>. roughly even for them; sell it on fit.</div><div class="stats"><span>your depth <b>-0.7</b></span><span>their lineup <b>-0.2</b></span></div></div>
+</section>
+<section class="page-log log" data-page="log"><h2>Alerts <small>sent to your phone</small></h2>
+<div class="card"><div class="ts">Sat 4:11 PM</div><div><div class="t">Market spike: Josh Johnson</div><div class="b">4,666 adds in the last hour · QB ARI · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 3:51 PM</div><div><div class="t">Market spike: Justice Hill</div><div class="b">8,046 adds in the last hour · RB BAL · waivers</div></div></div>
+<div class="card"><div class="ts">Sat 3:41 PM</div><div><div class="t">Roster move: Josh Johnson</div><div class="b">added (free agent); dropped Justice Hill. Free agent — adding him costs nothing and keeps your waiver spot.</div></div></div>
+<div class="card"><div class="ts">Sat 3:41 PM</div><div><div class="t">Waiver: add Josh Johnson</div><div class="b">drop Justice Hill · +3.8 ppg rest of season over Justice Hill · You hold waiver #9 of 10; winning any claim sends you to #10. The slot is worth about 0.4 ppg of rest-of-season value right now. Free agents cost nothing to add.</div></div></div>
+<div class="card"><div class="ts">Sat 3:10 PM</div><div><div class="t">Market spike: Chris Rodriguez Jr.</div><div class="b">4,518 adds in the last hour · RB JAX · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 3:10 PM</div><div><div class="t">Market spike: Roman Wilson</div><div class="b">7,020 adds in the last hour · WR PIT · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 10:27 AM</div><div><div class="t">Market spike: Chase McLaughlin</div><div class="b">4,144 adds in the last hour · K TB · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 10:27 AM</div><div><div class="t">Market spike: Elic Ayomanor</div><div class="b">4,168 adds in the last hour · WR TEN · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 9:26 AM</div><div><div class="t">Market spike: Konata Mumpfield</div><div class="b">4,293 adds in the last hour · WR LAR · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 9:06 AM</div><div><div class="t">Market spike: Dawson Knox</div><div class="b">4,098 adds in the last hour · TE BUF · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 6:05 AM</div><div><div class="t">Your player: DK Metcalf, Michael Pittman Jr.</div><div class="b">How Steelers&#x27; wide receiver corps gets big boost in Week 11 — ESPN</div></div></div>
+<div class="card"><div class="ts">Sat 3:34 AM</div><div><div class="t">Waiver: add Chase McLaughlin</div><div class="b">drop Cairo Santos · 56,408 adds on Sleeper in 24h — market is moving · You hold waiver #9 of 10; winning any claim sends you to #10. The slot is worth about 0.4 ppg of rest-of-season value right now. Free agents cost nothing to add.</div></div></div>
+<div class="card"><div class="ts">Sat 1:33 AM</div><div><div class="t">Market spike: Mark Andrews</div><div class="b">4,131 adds in the last hour · TE BAL · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 12:03 AM</div><div><div class="t">Market spike: Pat Bryant</div><div class="b">5,080 adds in the last hour · WR DEN · freeagent</div></div></div>
+<div class="card"><div class="ts">Sat 12:03 AM</div><div><div class="t">Market spike: Chimere Dike</div><div class="b">11,754 adds in the last hour · WR TEN · freeagent</div></div></div>
+<h2 style="margin-top:22px">News <small>ESPN · r/fantasyfootball</small></h2>
+<div class="card"><div class="ts">Sat 3:36 PM</div><div><div class="t">Josh Johnson <span class="pill out">injury</span></div><div class="b">Cardinals rule out rookie Carson Beck, turn to 40-year-old Josh Johnson vs. Chiefs <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50553035/cardinals-downgrade-qb-carson-beck-josh-johnson-set-start" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Sat 2:58 PM</div><div><div class="t">Roman Wilson, Michael Pittman Jr. <span class="pill out">injury</span></div><div class="b">Sources: Steelers to activate WR Roman Wilson off IR for Eagles game <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50552701/sources-steelers-activate-wr-roman-wilson-ir-eagles-game" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Sat 6:00 AM</div><div><div class="t">Joe Burrow </div><div class="b">Why Amarius Mims is an underrated key to Bengals&#x27; success <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50543897/bengals-amarius-mims-pass-protection-joe-burrow" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Sat 6:00 AM</div><div><div class="t">DK Metcalf, Michael Pittman Jr. </div><div class="b">How Steelers&#x27; wide receiver corps gets big boost in Week 11 <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50545137/steelers-receiver-corps-boost-wilson-pittman-week-11" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 6:05 PM</div><div><div class="t">Joe Burrow <span class="pill out">injury</span></div><div class="b">Back at practice again, Bengals QB Burrow optimistic he&#x27;ll be at full strength <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 5:08 PM</div><div><div class="t">Brock Bowers <span class="pill out">injury</span></div><div class="b">Raiders TE Brock Bowers (ankle, quad) listed as questionable <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50543720/raiders-te-brock-bowers-ankle-quad-listed-questionable" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 4:44 PM</div><div><div class="t">Geno Smith <span class="pill ok">opportunity</span></div><div class="b">Jets QB Geno Smith (ankle) cleared to start vs. Chargers <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50543665/jets-qb-geno-smith-ankle-cleared-start-vs-chargers" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 3:55 PM</div><div><div class="t">Dalton Kincaid <span class="pill out">injury</span></div><div class="b">Bills TE Dalton Kincaid doubtful to play vs. Dolphins <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50543381/bills-te-dalton-kincaid-doubtful-play-vs-dolphins" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 2:59 PM</div><div><div class="t">Josh Johnson <span class="pill out">injury</span></div><div class="b">Cardinals QB Carson Beck dealing with back spasms; Josh Johnson may start <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50542595/cardinals-qb-beck-dealing-back-spasms-johnson-start" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 2:59 PM</div><div><div class="t">Josh Johnson <span class="pill ok">opportunity</span></div><div class="b">Mike LaFleur: Cardinals proceeding as if Josh Johnson will start <span class="meta">— ESPN</span> <a href="https://www.espn.com/video/clip/_/id/50542830/cardinals-proceeding-josh-johnson-start" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 3:15 PM</div><div><div class="t">Kenneth Walker III, Emmett Johnson <span class="pill out">injury</span></div><div class="b">Chiefs expect to be without Kenneth Walker III vs. Cardinals <span class="meta">— ESPN</span> <a href="https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals" style="color:var(--accent)">open</a></div></div></div>
+<div class="card"><div class="ts">Fri 2:36 PM</div><div><div class="t">Drake Maye <span class="pill out">injury</span></div><div class="b">McAfee &amp; Co. speculate who will replace injured Drake Maye <span class="meta">— ESPN</span> <a href="https://www.espn.com/video/clip/_/id/50542714/mcafee-co-speculate-replace-injured-drake-maye" style="color:var(--accent)">open</a></div></div></div>
+<h2 style="margin-top:22px">Briefings</h2>
+<div class="card"><div class="ts">Tue 8:08 AM</div><div><div class="t">Week 11 plan</div><div class="b">Week 10: scored 117.5, best possible 140.3 (22.8 left on bench). Projections: ESPN was closer (MAE 4.4 vs 4.5); blend now 50% ESPN. Wire: Cade Otton (waivers, #7) for Chris Rodriguez Jr. — Starts for you this week (+1.1) and he&#x27;s contested (11,820 adds/24h, 2% rostered) — worth #7 → #10. Injuries: Brock Bowers questionable, Geno Smith questionable. Trade idea: Geno Smith to 3 Rings Lathrop for Jaylen Warren (+3.5). Next: 3 Rings Lathrop, early win prob 80%.</div></div></div>
+<div class="card"><div class="ts">Sun 10:02 AM</div><div><div class="t">Week 10 game day</div><div class="b">vs Matt&#x27;s Magnificent Team: 121 to 110, win prob 63%. Lineup is set and optimal. First lock: Jake Bates Sun 9:30a. Pending: Audric Estime for Ryan Flournoy (tomorrow ~3:30 AM).</div></div></div>
+<div class="card"><div class="ts">Tue 8:07 AM</div><div><div class="t">Week 10 plan</div><div class="b">Week 9: scored 163.4, best possible 163.4 (-0.0 left on bench). Projections: ESPN was closer (MAE 4.2 vs 4.2); blend now 50% ESPN. Wire: Ravens D/ST (waivers, #5) for Chiefs D/ST — Worth your #5: he starts for you this week. Injuries: Travis Etienne Jr. injury reserve. Trade idea: Jalen Coker to Rose Knows for D&#x27;Andre Swift (+2.1). Next: Matt&#x27;s Magnificent Team, early win prob 70%.</div></div></div>
+<div class="card"><div class="ts">Sun 10:02 AM</div><div><div class="t">Week 9 game day</div><div class="b">vs King Trump: 125 to 121, win prob 54%. Lineup is set and optimal. First lock: Tee Higgins Sun 9:30a.</div></div></div>
+<h2 style="margin-top:22px">Scorecard <small>every week, graded</small></h2><table><tr><th>Wk</th><th style="text-align:right">Scored</th><th style="text-align:right">Best</th><th style="text-align:right">Left</th><th style="text-align:right">ESPN err</th><th style="text-align:right">Sleeper err</th><th style="text-align:right">Blend err</th></tr>
+<tr><td class="slot">1</td><td class="r">80.4</td><td class="r">121.3</td><td class="r neg">40.9</td><td class="r">4.5</td><td class="r">4.5</td><td class="r">4.5</td></tr>
+<tr><td class="slot">2</td><td class="r">122.3</td><td class="r">130.3</td><td class="r neg">8.0</td><td class="r">4.3</td><td class="r">4.2</td><td class="r">4.2</td></tr>
+<tr><td class="slot">3</td><td class="r">105.7</td><td class="r">133.3</td><td class="r neg">27.6</td><td class="r">4.5</td><td class="r">4.4</td><td class="r">4.5</td></tr>
+<tr><td class="slot">4</td><td class="r">141.6</td><td class="r">164.5</td><td class="r neg">22.9</td><td class="r">4.1</td><td class="r">4.1</td><td class="r">4.1</td></tr>
+<tr><td class="slot">5</td><td class="r">88.8</td><td class="r">97.2</td><td class="r neg">8.4</td><td class="r">4.5</td><td class="r">4.3</td><td class="r">4.2</td></tr>
+<tr><td class="slot">6</td><td class="r">119.4</td><td class="r">127.3</td><td class="r neg">7.9</td><td class="r">4.2</td><td class="r">4.2</td><td class="r">4.2</td></tr>
+<tr><td class="slot">9</td><td class="r">163.4</td><td class="r">163.4</td><td class="r ">-0.0</td><td class="r">4.2</td><td class="r">4.2</td><td class="r">4.2</td></tr>
+<tr><td class="slot">10</td><td class="r">117.5</td><td class="r">140.3</td><td class="r neg">22.8</td><td class="r">4.4</td><td class="r">4.5</td><td class="r">4.4</td></tr>
+</table>
+<div class="note">Blend currently 50% ESPN / 50% Sleeper, re-tuned from these errors each Tuesday.</div>
+<h2 style="margin-top:22px">Agent log <small>recommended vs executed</small></h2>
+<div class="card"><div class="ts">Sat 3:41 PM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">added (free agent) Josh Johnson / drop Justice Hill</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Josh Johnson (RB FA) — this week: ESPN 0.0 / Sleeper 8.9 → 7.6 after no adjustments = 7.6 expected. ROS 7.6 ppg (ESPN season 0; replacement RB on the wire = 3.9, so value over replacement +3.8); 0% rostered; 16,047 Sleeper adds/24h.
+DROP Justice Hill (RB BAL) — this week: ESPN 6.0 / Sleeper 6.2 → 6.3 after vegas ×0.93, dvp ×1.11 @ CAR (spread +3.0, o/u 43.5) = 6.3 expected. ROS 3.8 ppg (ESPN season 46; replacement RB on the wire = 3.9, so value over replacement -0.1); 24% rostered; 145,440 Sleeper adds/24h.
+Net: +0.1 to this week&#x27;s optimal lineup, +3.8 ppg rest-of-season over the drop; free agent, no priority cost.
+Free agent — adding him costs nothing and keeps your waiver spot.</pre></details></div></div>
+<div class="card"><div class="ts">Fri 7:09 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">added (free agent) Justice Hill / drop Jalen Coker</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Justice Hill (RB BAL) — this week: ESPN 6.0 / Sleeper 6.2 → 6.3 after vegas ×0.93, dvp ×1.11 @ CAR (spread +3.0, o/u 43.5) = 6.3 expected. ROS 3.8 ppg (ESPN season 46; replacement RB on the wire = 3.8, so value over replacement +0.0); 22% rostered; 203,634 Sleeper adds/24h.
+DROP Jalen Coker (WR CAR) — this week: ESPN 7.3 / Sleeper 10.6 → 9.4 after vegas ×1.02, dvp ×1.04 vs BAL (spread -3.0, o/u 43.5) = 9.4 expected. ROS 4.8 ppg (ESPN season 54; replacement WR on the wire = 5.2, so value over replacement -0.4); 79% rostered; 0 Sleeper adds/24h.
+Net: +0.0 to this week&#x27;s optimal lineup, +0.4 ppg rest-of-season over the drop; free agent, no priority cost.
+Free agent — adding him costs nothing and keeps your waiver spot.</pre></details></div></div>
+<div class="card"><div class="ts">Fri 4:08 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">added (free agent) Cairo Santos / drop Jake Bates</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Cairo Santos (K CHI) — this week: ESPN 9.8 / Sleeper 8.1 → 10.1 after vegas ×1.12 vs NO (spread -11.5, o/u 48.5) = 10.1 expected. ROS 6.0 ppg (ESPN season 73; replacement K on the wire = 5.8, so value over replacement +0.2); 29% rostered; 420,462 Sleeper adds/24h.
+DROP Jake Bates (K DET) — this week: ESPN 9.1 / Sleeper 8.7 → 9.5 after vegas ×1.07 vs TB (spread -6.0, o/u 45.5) = 9.5 expected. ROS 6.0 ppg (ESPN season 76; replacement K on the wire = 5.8, so value over replacement +0.1); 53% rostered; 107,392 Sleeper adds/24h.
+Why Jake Bates and not a lower-value bench player: DK Metcalf is protected (88% rostered).
+Net: +0.6 to this week&#x27;s optimal lineup, +0.1 ppg rest-of-season over the drop; free agent, no priority cost.
+Free agent — adding him costs nothing and keeps your waiver spot.</pre></details></div></div>
+<div class="card"><div class="ts">Thu 6:28 PM</div><div><div class="t">lineup <span class="pill ok">executed</span></div><div class="b">+0.7: Jalen Coker WR→BE; Ryan Flournoy BE→WR</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">IN Ryan Flournoy 10.2 expected = 10.2 projected (vegas ×1.15, dvp ×1.12 vs TEN -8.5) × healthy  |  OUT Jalen Coker 9.5 expected = 9.5 projected (vegas ×1.01, dvp ×1.04 vs BAL -3.0) × healthy  → +0.7
+If a questionable player is confirmed active before kickoff his play probability goes to 100% and the lineup is re-evaluated automatically.</pre></details></div></div>
+<div class="card"><div class="ts">Thu 7:02 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">added (free agent) Ryan Flournoy / drop Darnell Washington</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Ryan Flournoy (WR DAL) — this week: ESPN 7.4 / Sleeper 8.4 → 10.2 after vegas ×1.15, dvp ×1.12 vs TEN (spread -8.5, o/u 54.5) = 10.2 expected. ROS 5.0 ppg (ESPN season 49; replacement WR on the wire = 5.2, so value over replacement -0.2); 37% rostered; 311,280 Sleeper adds/24h.
+DROP Darnell Washington (TE PIT) — this week: ESPN 4.9 / Sleeper 5.6 → 4.5 after vegas ×0.96, dvp ×0.88 @ PHI (spread -4.5, o/u 37.5) = 4.5 expected. ROS 3.0 ppg (ESPN season 42; replacement TE on the wire = 4.3, so value over replacement -1.2); 8% rostered; 0 Sleeper adds/24h.
+Net: +0.8 to this week&#x27;s optimal lineup, +1.0 ppg rest-of-season over the drop; free agent, no priority cost.
+Free agent — adding him costs nothing and keeps your waiver spot.</pre></details></div></div>
+<div class="card"><div class="ts">Thu 4:01 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">added (free agent) Jordan Mason / drop Cade Otton</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Jordan Mason (RB MIN) — this week: ESPN 6.8 / Sleeper 8.3 → 7.0 after vegas ×0.98, dvp ×0.95 @ SF (spread +3.0, o/u 46.5) = 7.0 expected. ROS 5.4 ppg (ESPN season 79; replacement RB on the wire = 4.1, so value over replacement +1.3); 56% rostered; 49,125 Sleeper adds/24h.
+DROP Cade Otton (TE TB) — this week: ESPN 5.2 / Sleeper 5.3 → 5.2 after vegas ×0.88, dvp ×1.12 @ DET (spread +7.0, o/u 43.5) = 5.2 expected. ROS 3.5 ppg (ESPN season 48; replacement TE on the wire = 4.3, so value over replacement -0.8); 3% rostered; 31,692 Sleeper adds/24h.
+Net: +0.0 to this week&#x27;s optimal lineup, +2.1 ppg rest-of-season over the drop; free agent, no priority cost.
+Free agent — adding him costs nothing and keeps your waiver spot.</pre></details></div></div>
+<div class="card"><div class="ts">Wed 7:45 AM</div><div><div class="t">lineup <span class="pill ok">executed</span></div><div class="b">+3.5: Brock Bowers BE→TE; Darnell Washington TE→BE</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">IN Brock Bowers 8.0 expected = 11.4 projected (vegas ×0.85, dvp ×1.12 @ DEN +10.0) × questionable, plays 70%  |  OUT Darnell Washington 4.5 expected = 4.5 projected (vegas ×0.97, dvp ×0.88 @ PHI -4.5) × healthy  → +3.5
+If a questionable player is confirmed active before kickoff his play probability goes to 100% and the lineup is re-evaluated automatically.</pre></details></div></div>
+<div class="card"><div class="ts">Wed 6:34 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">added (cleared waivers) Samaje Perine / drop Austin Ekeler</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Samaje Perine (RB CIN) — this week: ESPN 6.0 / Sleeper 6.6 → 7.3 after vegas ×1.15 @ WSH (spread -6.5, o/u 53.5) = 7.3 expected. ROS 4.7 ppg (ESPN season 57; replacement RB on the wire = 4.7, so value over replacement +0.0); 10% rostered; 132,544 Sleeper adds/24h.
+DROP Austin Ekeler (RB WSH) — this week: ESPN 3.2 / Sleeper 4.1 → 3.9 after vegas ×1.02, dvp ×1.04 vs CIN (spread +6.5, o/u 53.5) = 3.9 expected. ROS 2.2 ppg (ESPN season 28; replacement RB on the wire = 4.7, so value over replacement -2.4); 8% rostered; 36,632 Sleeper adds/24h.
+Net: +0.0 to this week&#x27;s optimal lineup, +2.4 ppg rest-of-season over the drop; free agent, no priority cost.
+Free agent — adding him costs nothing and keeps your waiver spot.</pre></details></div></div>
+<div class="card"><div class="ts">Wed 6:34 AM</div><div><div class="t">waiver <span class="pill chip">recommended</span></div><div class="b">claim Dalton Schultz / drop Austin Ekeler</div></div></div>
+<div class="card"><div class="ts">Wed 6:04 AM</div><div><div class="t">waiver <span class="pill chip">recommended</span></div><div class="b">claim Dalton Schultz / drop Austin Ekeler</div></div></div>
+<div class="card"><div class="ts">Wed 3:33 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">claimed (waivers) Chiefs D/ST / drop Colts D/ST</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Chiefs D/ST (DST KC) — this week: ESPN 9.2 / Sleeper 12.4 → 12.4 after vegas ×1.15 vs ARI (spread -16.5, o/u 41.5) = 12.4 expected. ROS 6.4 ppg (ESPN season 64; replacement DST on the wire = 4.5, so value over replacement +1.9); 61% rostered; 0 Sleeper adds/24h.
+DROP Colts D/ST (DST IND) — this week: ESPN 3.3 / Sleeper 4.2 → 3.3 after vegas ×0.87 @ HOU (spread +12.5, o/u 44.5) = 3.3 expected. ROS 2.6 ppg (ESPN season 39; replacement DST on the wire = 4.5, so value over replacement -1.9); 20% rostered; 0 Sleeper adds/24h.
+Net: +9.2 to this week&#x27;s optimal lineup, +3.8 ppg rest-of-season over the drop; on waivers, priority slot value 1.2, net 16.3.
+Worth your #7: he starts for you this week.</pre></details></div></div>
+<div class="card"><div class="ts">Tue 5:36 AM</div><div><div class="t">waiver <span class="pill ok">executed</span></div><div class="b">claimed (waivers) Cade Otton / drop Chris Rodriguez Jr.</div><details style="margin-top:6px"><summary style="cursor:pointer;color:var(--accent);font-size:13px">Why</summary><pre style="white-space:pre-wrap;font:12.5px/1.45 'IBM Plex Sans',system-ui,sans-serif;color:var(--ink-2);margin:6px 0 0">ADD Cade Otton (TE TB) — this week: ESPN 5.5 / Sleeper 5.7 → 5.8 after vegas ×0.93, dvp ×1.12 @ DET (spread +6.5, o/u 46.5) = 5.8 expected. ROS 3.7 ppg (ESPN season 49; replacement TE on the wire = 4.3, so value over replacement -0.6); 2% rostered; 7,536 Sleeper adds/24h.
+DROP Chris Rodriguez Jr. (RB JAX) — this week: ESPN 5.2 / Sleeper 5.7 → 5.9 after vegas ×1.09, dvp ×0.99 @ NYG (spread -6.0, o/u 46.5) = 5.9 expected. ROS 3.8 ppg (ESPN season 47; replacement RB on the wire = 5.3, so value over replacement -1.5); 19% rostered; 0 Sleeper adds/24h.
+Net: +1.1 to this week&#x27;s optimal lineup, +0.9 ppg rest-of-season over the drop; on waivers, priority slot value 1.2, net 2.8.
+Starts for you this week (+1.1) and he&#x27;s contested (7,536 adds/24h, 2% rostered) — worth #7 → #10.</pre></details></div></div>
+<p class="note">Expected points = blended ESPN + Sleeper projection, adjusted for Vegas implied total, defense-vs-position and weather, × probability of playing. Once a player's game kicks off his row shows the points he has actually scored (ESPN live scoring) with the projection beside it. ROS = rest-of-season points per game. Wire scores are value over the best free agent at the position, minus the cost of your waiver slot when a claim would use it. 🔒 marks players the agent will never drop.</p>
+</section></div>
+<nav class="tabs" aria-label="Sections">
+<button data-page="lineup"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 9v11M16 9v11"/></svg>Lineup</button>
+<button data-page="wire"><svg viewBox="0 0 24 24"><path d="M4 19l5-6 4 3 7-9"/><path d="M15 7h5v5"/></svg>Wire</button>
+<button data-page="trades"><svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg>Trades</button>
+<button data-page="log"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0112 0v5l2 3H4l2-3z"/><path d="M10 20a2 2 0 004 0"/></svg>Log</button>
+</nav>
+<div id="toast" hidden></div></div>
+
+<script>
+(function(){
+  var served = !!window.FGM_BASE, isStatic = !served && !!window.FGM_STATIC;
+  if(served) document.documentElement.classList.add('served');
+  if(isStatic){ document.documentElement.classList.add('static');
+    document.querySelectorAll('.act').forEach(function(b){ b.textContent += ' — ask Claude in chat'; b.disabled = true; }); }
+  // --- tabs (phone) ---
+  var pages=document.querySelectorAll('.pages>section'), tabs=document.querySelectorAll('nav.tabs button');
+  function show(id){pages.forEach(function(p){p.classList.toggle('active',p.dataset.page===id)});tabs.forEach(function(t){t.classList.toggle('active',t.dataset.page===id)});
+    try{localStorage.setItem('fgm.tab',id)}catch(e){} }
+  var start='lineup'; try{start=localStorage.getItem('fgm.tab')||'lineup'}catch(e){}
+  show(start);
+  tabs.forEach(function(t){t.addEventListener('click',function(){show(t.dataset.page);window.scrollTo({top:0})})});
+  // --- refresh ---
+  var rb=document.querySelector('.refresh');
+  if(rb) rb.addEventListener('click',function(){rb.classList.add('spin');location.reload()});
+  if(served || isStatic){ setInterval(function(){ if(document.visibilityState==='visible') location.reload(); }, 5*60*1000);
+    document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible' && Date.now()-window.FGM_LOADED>120000) location.reload(); }); }
+  window.FGM_LOADED=Date.now();
+  // --- one-click actions ---
+  var toast=document.getElementById('toast'), tm;
+  function say(msg,ms){toast.textContent=msg;toast.hidden=false;clearTimeout(tm);tm=setTimeout(function(){toast.hidden=true},ms||6000)}
+  document.querySelectorAll('.act').forEach(function(b){
+    b.dataset.label=b.textContent;
+    b.addEventListener('click',function(){
+      var payload=JSON.parse(b.dataset.act);
+      if(!confirm('Send to ESPN now?\n\n'+b.dataset.label)) return;
+      b.disabled=true; b.textContent='Sending…';
+      fetch(window.FGM_BASE+'/act',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+        .then(function(r){return r.json()})
+        .then(function(res){ say(res.message, res.ok?4000:12000); if(res.ok){setTimeout(function(){location.reload()},2500)} else {b.disabled=false;b.textContent=b.dataset.label} })
+        .catch(function(e){ say('Could not reach the agent: '+e, 10000); b.disabled=false; b.textContent=b.dataset.label });
+    });
+  });
+})();
+</script>
+
+</body></html>

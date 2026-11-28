@@ -1,0 +1,386 @@
+{
+ "updated": "2026-11-28T09:30",
+ "week": 12,
+ "team": "Muddy Bottoms",
+ "league": "Unlucky Fantasy Football League",
+ "armed": true,
+ "auto_lineup": true,
+ "auto_waivers": true,
+ "dashboard_url": "http://100.119.165.16:8765/dj6mIr4fiFWzv0Q5Hezd0BZN/",
+ "projected": 119.7,
+ "current_lineup": 119.7,
+ "bench_gain": 0.0,
+ "win_probability": 0.54,
+ "opponent": "Rose Knows",
+ "matchup": "120 to 117",
+ "moves": [],
+ "starters": [
+  {
+   "slot": "QB",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "nfl": "HOU",
+   "ep": 28.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "nfl": "SF",
+   "ep": 14.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "RB",
+   "name": "Josh Johnson",
+   "pos": "RB",
+   "nfl": "FA",
+   "ep": 11.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "nfl": "DAL",
+   "ep": 17.5,
+   "actual": 18.5,
+   "game": "final",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "WR",
+   "name": "Josh Cameron",
+   "pos": "WR",
+   "nfl": "JAX",
+   "ep": 11.8,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "TE",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "nfl": "LV",
+   "ep": 7.0,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE",
+   "sleeper": "Questionable"
+  },
+  {
+   "slot": "DST",
+   "name": "Giants D/ST",
+   "pos": "DST",
+   "nfl": "NYG",
+   "ep": 8.7,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "K",
+   "name": "Jake Bates",
+   "pos": "K",
+   "nfl": "DET",
+   "ep": 9.0,
+   "actual": 10.0,
+   "game": "final",
+   "status": "ACTIVE",
+   "sleeper": null
+  },
+  {
+   "slot": "FLEX",
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "nfl": "MIN",
+   "ep": 12.0,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE",
+   "sleeper": null
+  }
+ ],
+ "bench": [
+  {
+   "name": "Geno Smith",
+   "pos": "QB",
+   "ep": 18.9,
+   "ros": 10.1,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "ep": 10.9,
+   "ros": 6.6,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "ep": 10.1,
+   "ros": 5.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "ep": 10.0,
+   "ros": 8.1,
+   "actual": null,
+   "game": "pending",
+   "status": "QUESTIONABLE"
+  },
+  {
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "ep": 9.6,
+   "ros": 5.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  },
+  {
+   "name": "KC Concepcion",
+   "pos": "WR",
+   "ep": 9.0,
+   "ros": 5.3,
+   "actual": null,
+   "game": "pending",
+   "status": "ACTIVE"
+  }
+ ],
+ "scored": 28.5,
+ "still_to_play": 7,
+ "waiver_priority": "#7 of 10",
+ "targets": [
+  {
+   "add": "Drew Stevens",
+   "pos": "K",
+   "nfl": "WSH",
+   "drop": "Jake Bates",
+   "score": 3.3,
+   "wk": 1.1,
+   "ros": 0.4,
+   "adds_24h": 5580,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+1.1 to this week's lineup"
+  },
+  {
+   "add": "Dominic Zvada",
+   "pos": "K",
+   "nfl": "NYG",
+   "drop": "Jake Bates",
+   "score": 2.3,
+   "wk": 1.1,
+   "ros": 0.6,
+   "adds_24h": 0,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "+1.1 to this week's lineup"
+  },
+  {
+   "add": "Brian Thomas Jr.",
+   "pos": "WR",
+   "nfl": "JAX",
+   "drop": "DK Metcalf",
+   "score": 2.0,
+   "wk": 0.0,
+   "ros": 0.0,
+   "adds_24h": 402635,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "402,635 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Xavier Hutchinson",
+   "pos": "WR",
+   "nfl": "HOU",
+   "drop": "DK Metcalf",
+   "score": 1.5,
+   "wk": 0.0,
+   "ros": -0.1,
+   "adds_24h": 28105,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "28,105 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Kyle Pitts Sr.",
+   "pos": "TE",
+   "nfl": "ATL",
+   "drop": "DK Metcalf",
+   "score": 1.4,
+   "wk": 0.0,
+   "ros": -0.1,
+   "adds_24h": 25242,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "25,242 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Justice Hill",
+   "pos": "RB",
+   "nfl": "BAL",
+   "drop": "DK Metcalf",
+   "score": 1.1,
+   "wk": 0.0,
+   "ros": -0.5,
+   "adds_24h": 36927,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "36,927 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Malik Washington",
+   "pos": "WR",
+   "nfl": "MIA",
+   "drop": "DK Metcalf",
+   "score": 0.3,
+   "wk": 0.0,
+   "ros": -1.2,
+   "adds_24h": 21136,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "21,136 adds on Sleeper in 24h \u2014 market is moving"
+  },
+  {
+   "add": "Chimere Dike",
+   "pos": "WR",
+   "nfl": "TEN",
+   "drop": "DK Metcalf",
+   "score": 0.3,
+   "wk": 0.0,
+   "ros": -1.4,
+   "adds_24h": 71352,
+   "pool": "FREEAGENT",
+   "advice": "Free agent \u2014 adding him costs nothing and keeps your waiver spot.",
+   "reason": "71,352 adds on Sleeper in 24h \u2014 market is moving"
+  }
+ ],
+ "trades": [
+  {
+   "partner": "Black Lives Matter",
+   "give": [
+    "Tee Higgins (WR, CIN) [QUESTIONABLE]",
+    "Jordan Mason (RB, MIN)"
+   ],
+   "get": [
+    "Nico Collins (WR, HOU)"
+   ],
+   "my_gain": 0.6,
+   "their_gain": 1.1,
+   "pitch": "Offer Tee Higgins + Jordan Mason for Nico Collins \u2014 upgrades their starting lineup by ~1.1 ppg."
+  }
+ ],
+ "pending_claims": [],
+ "recent_decisions": [
+  {
+   "at": "Fri 11/27 21:07",
+   "kind": "lineup",
+   "executed": true,
+   "summary": "+2.6: Tee Higgins WR\u2192BE; Travis Etienne Jr. RB\u2192BE; Josh Cameron BE\u2192WR; Josh Johnson BE\u2192RB",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 11/27 18:40",
+   "kind": "waiver",
+   "executed": true,
+   "summary": "added (free agent) Josh Cameron / drop Dalton Schultz",
+   "result": "ok"
+  },
+  {
+   "at": "Fri 11/27 18:33",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 18:25",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 18:17",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 18:10",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 18:03",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 17:55",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 17:48",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 17:41",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 17:34",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  },
+  {
+   "at": "Fri 11/27 17:26",
+   "kind": "waiver",
+   "executed": false,
+   "summary": "claim Dominic Zvada / drop Jake Bates",
+   "result": "Write failed 409: {\"messages\":[\"Roster transaction could not be completed, Jake Bates is locked\"],\"details\":[{\"message\":\"Roster transaction could not be completed, Jake Bates is locked\",\"shortMessage\":\"Roster transaction could not be completed, Jake Bates is locked\",\"resolution\":null,\"type\":\"TRAN_ROSTER_LOCKED\",\"meta"
+  }
+ ],
+ "espn_auth_ok": true
+}
